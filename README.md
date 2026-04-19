@@ -14,3 +14,25 @@ This project transforms historical and simulated real-time data into a structure
 ## Architecture
 <img width="547" height="245" alt="image" src="https://github.com/user-attachments/assets/f05f6f27-8ff1-49cc-a6a5-d866da1340cb" />
 
+## Tech Stack
+ For Layer and Tool
+
+## Dashboard
+## Dataset
+## Project Structure
+## Reproducing This Project
+# Prerequisites
+# Step 1 - clone the repo
+#  step 2 - Set up GCP credentials
+# Step 3 - Provision infrastructure with Terraform
+# step 4 - Configure Bruin
+# step 5 - Run the pipeline
+# step 6 - View the dashboard
+
+## Data Pipeline Details
+# Layer 1 — Ingestion (raw.cms_telehealth_trends)
+# Layer 2 — Staging (staging.stg_telehealth_trends)
+# Layer 3 — Analytics (analytics.telehealth_by_state)
+
+## Data Quality Checks
+
