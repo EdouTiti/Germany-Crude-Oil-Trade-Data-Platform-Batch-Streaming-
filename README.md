@@ -10,3 +10,6 @@ This project transforms historical and simulated real-time data into a structure
 - Trend analysis
 - Country-level insights
 - Real-time monitoring
+
+## Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/be5cc87b-2d24-449d-bdd7-b91ccca2a316" />
