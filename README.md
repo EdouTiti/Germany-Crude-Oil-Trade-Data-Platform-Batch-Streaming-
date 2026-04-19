@@ -12,7 +12,8 @@ This project transforms historical and simulated real-time data into a structure
 - Real-time monitoring
 
 ## Architecture
-<img width="547" height="245" alt="image" src="https://github.com/user-attachments/assets/f05f6f27-8ff1-49cc-a6a5-d866da1340cb" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4dd4a290-dfdf-4b05-92e7-4eb15afd4038" />
+
 
 ## Tech Stack
  For Layer and Tool
