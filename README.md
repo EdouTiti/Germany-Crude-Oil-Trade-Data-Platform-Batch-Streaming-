@@ -52,26 +52,29 @@ CSV Data
 - Format: Raw structured files (CSV)
 - Link: https://www.kaggle.com/datasets/bhushandivekar/germany-crude-oil-trade
 ### 2. Python Ingestion
-- Loads data into PostgreSQL (raw schema)
+- loads data into PostgreSQL (raw schema)
 ### 3. Bruin
-- Orchestrates full pipeline execution
+- orchestrates full pipeline execution
 ### 4. Spark**
-- Cleans and enriches datasets
-- Handles larger-scale transformations
+- Cleans and enriches datasets & handles larger-scale transformations
 ### 5. PostgreSQL**
-- Stores:
-    --> Raw data (raw)
-    --> Processed data (analytics)
+- stores: Raw data (raw) & Processed data (analytics)
 ### 6. dbt**
-- Builds:
-    --> Fact tables (trade volumes, values)
-    --> Dimension tables (country, product, time)
+- builds: Fact tables (trade volumes, values) & Dimension tables (country, product, time)
 ### 7. Power BI**
-- Dashboards:
--- Import/export trends
--- Country-level analysis
--- Price evolution
+- Dashboards: for Import/export trends, for Country-level analysis and for Price evolution
 
+## Expected Outputs
+- Cleaned and structured trade datasets
+- Analytical data models
+- Interactive dashboards: Crude oil imports by country, Monthly trade volumes & Price trends over time
+
+## Key Features
+- End-to-end batch data pipeline
+- Modular and scalable architecture
+- Separation of concerns (raw / processed / analytics)
+- Reproducible transformations with dbt
+- Automated orchestration with Bruin
 
 ## Dashboard
 ## Dataset
