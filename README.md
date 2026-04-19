@@ -1,7 +1,4 @@
-# Germany Crude Oil Trade Data Platform (Batch & Streaming)
-
-## Project Title
-Germany Crude Oil Trade Data Platform (Batch & Streaming)
+# Project Title: Germany Crude Oil Trade Data Platform (Batch & Streaming)
 
 ## Project Overview
 This project builds an end-to-end data pipeline to analyze Germany’s crude oil trade from 2019 to 2024.
