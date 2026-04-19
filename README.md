@@ -47,27 +47,26 @@ CSV Data
 | Visualization  | Power BI     | Dashboards & reporting          |
 
 ## Data Flow
-
 **1. CSV Data**
 - Source: Trade datasets (e.g. Destatis / Eurostat)
 - Format: Raw structured files (CSV)
 - Link: https://www.kaggle.com/datasets/bhushandivekar/germany-crude-oil-trade
 **2. Python Ingestion**
 - Loads data into PostgreSQL (raw schema)
-3. Bruin
+**3. Bruin**
 - Orchestrates full pipeline execution
-4. Spark
+**4. Spark**
 - Cleans and enriches datasets
 - Handles larger-scale transformations
-5. PostgreSQL
+**5. PostgreSQL**
 - Stores:
     --> Raw data (raw)
     --> Processed data (analytics)
-6. dbt
+**6. dbt**
 - Builds:
     --> Fact tables (trade volumes, values)
     --> Dimension tables (country, product, time)
-7. Power BI
+**7. Power BI**
 - Dashboards:
     --> Import/export trends
     --> Country-level analysis
