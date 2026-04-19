@@ -68,9 +68,9 @@ CSV Data
     --> Dimension tables (country, product, time)
 ### 7. Power BI**
 - Dashboards:
-    --> Import/export trends
-    --> Country-level analysis
-    --> Price evolution
+-- Import/export trends
+-- Country-level analysis
+-- Price evolution
 
 
 ## Dashboard
