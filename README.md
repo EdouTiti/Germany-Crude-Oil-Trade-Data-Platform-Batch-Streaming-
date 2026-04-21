@@ -33,6 +33,7 @@ Target data flow:
 ```text
 Raw data -> Spark processing -> Cleaned datasets -> BigQuery -> dbt -> Power BI dashboards
 ```
+<img width="667" height="335" alt="image" src="https://github.com/user-attachments/assets/31597530-4a13-4aaf-8f63-1b85522ac3bf" />
 
 Current implementation note:
 
