@@ -403,8 +403,6 @@ Validation notes:
 
 ## Step 5: dbt Analytics Modeling Layer
 
-Status: completed
-
 dbt will be used after the warehouse layer to build analytics-friendly models
 on top of the curated BigQuery tables.
 
@@ -419,7 +417,6 @@ models/marts/
 models/facts/
 tests/
 ```
-
 Default dbt settings:
 
 ```text
@@ -679,35 +676,6 @@ Status: completed
 Power BI will connect to the curated BigQuery/dbt models for analytical
 reporting.
 
-Dashboard handoff folder:
-
-```text
-powerbi/
-```
-
-Power BI path:
-
-```text
-powerbi/README.md
-```
-
-Start from `powerbi/README.md`, then follow `powerbi/connection_guide.md` to
-connect Power BI Desktop to the BigQuery reporting dataset.
-
-Generated artifacts:
-
-| Artifact | Purpose |
-| --- | --- |
-| `powerbi/README.md` | Power BI build order and table list |
-| `powerbi/connection_guide.md` | BigQuery connection and refresh instructions |
-| `powerbi/dashboard_blueprint.md` | Dashboard pages, visuals, slicers, and fields |
-| `powerbi/one_page_dashboard.md` | Single-page dashboard layout for the current Power BI model |
-| `powerbi/measures.dax` | Starter DAX measures for Power BI |
-| `powerbi/measures_current_model.dax` | DAX measures using the current dbt table names in Power BI |
-| `powerbi/model_relationships.md` | Suggested semantic model relationships |
-| `powerbi/theme.json` | Starter Power BI report theme |
-| `powerbi/validation_queries.sql` | BigQuery smoke-test queries for reporting marts |
-
 Power BI source dataset:
 
 ```text
@@ -715,7 +683,7 @@ GCP project: zoomcampde2026
 BigQuery dataset: Germany_oil_analytics
 ```
 
-Recommended Power BI tables:
+Power BI tables:
 
 | BigQuery table | Power BI table name | Grain |
 | --- | --- | --- |
@@ -728,7 +696,8 @@ Recommended Power BI tables:
 | `Germany_oil_analytics.dim_date` | `Date Dimension` | one row per date |
 | `Germany_oil_analytics.dim_indicator` | `Indicator Dimension` | one row per WDI indicator ID |
 
-Dashboard pages:
+# Generated Dashboard
+<img width="507" height="327" alt="7-Power_BI-Dashboard" src="https://github.com/user-attachments/assets/22a62df4-181d-4d04-ad99-78a7b7a7df27" />
 
 - Germany crude oil imports by partner country
 - Trade value and quantity trends over time
@@ -745,47 +714,3 @@ Step 7 validation result:
 | `fact_oil_trade_global` | global transaction fact |
 | `fact_wdi_energy` | WDI country-year-indicator fact |
 | `fact_oil_prices` | annual crude price fact |
-
-## Verification Commands
-
-Check Python syntax:
-
-```bash
-python3 -m py_compile src/load_datasets.py
-```
-
-Run the current loader:
-
-```bash
-python3 src/load_datasets.py
-```
-
-Run the current cleaner:
-
-```bash
-python3 src/clean_datasets.py
-```
-
-Run the Spark batch pipeline:
-
-```bash
-python3 src/spark_batch_pipeline.py
-```
-
-Prepare BigQuery warehouse artifacts:
-
-```bash
-python3 src/prepare_bigquery.py
-```
-
-Run the orchestrated pipeline:
-
-```bash
-python3 src/orchestrate_pipeline.py
-```
-
-Validate the Power BI theme JSON:
-
-```bash
-python3 -m json.tool powerbi/theme.json
-```
