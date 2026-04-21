@@ -402,6 +402,10 @@ Validation notes:
   4127 missing `income_group` values for World Bank aggregate entries.
 
 ## Step 5: dbt Analytics Modeling Layer
+<img width="954" height="449" alt="4-dbt-Tables   views" src="https://github.com/user-attachments/assets/6c8ffb69-f1d2-4951-8965-c1160cde1ea1" />
+
+<img width="931" height="427" alt="3- dbt_dat Lineage" src="https://github.com/user-attachments/assets/3bde763a-1289-4a9c-a45f-6c636aea28a8" />
+
 
 dbt will be used after the warehouse layer to build analytics-friendly models
 on top of the curated BigQuery tables.
@@ -573,7 +577,6 @@ Modeling notes:
 
 ## Step 6: Orchestration Layer
 
-Status: completed
 
 The project now includes a dependency-light local orchestration runner that can
 run the pipeline end-to-end. It is designed so the same command can later be
@@ -670,6 +673,9 @@ Planned production hardening:
 - Run the orchestration command from a managed scheduler
 
 ## Step 7: Power BI Dashboard Layer
+
+<img width="664" height="346" alt="6- Data Model in Power BI" src="https://github.com/user-attachments/assets/a72fd731-eaf5-4dcc-b3f4-5bfa0be3601e" />
+
 
 Status: completed
 
