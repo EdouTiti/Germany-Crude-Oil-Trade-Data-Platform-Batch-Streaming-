@@ -17,8 +17,6 @@ The current project starts with three source groups:
 
 ## Architecture
 
-![alt text](image.png)
-
 This project follows a modern data engineering architecture:
 
 - Data sources: CSV files for Germany trade data, global trade data, and World
@@ -240,102 +238,512 @@ Data quality notes:
 
 ## Step 3: PySpark Batch Processing Layer
 
-Status: next
+Status: completed
 
-After the local pandas prototype, the project will add a Spark batch-processing
-layer that can rerun the pipeline from raw data to curated outputs.
-
-Planned actions:
-
-- Add a PySpark batch job for raw CSV ingestion
-- Recreate the current cleaning logic in Spark DataFrames
-- Validate required columns, row counts, ID fields, and numeric fields
-- Write repeatable curated outputs
-- Keep the existing processed schemas stable for downstream loading
-
-Planned script:
+Script:
 
 ```text
 src/spark_batch_pipeline.py
 ```
 
-Planned outputs:
+Command:
+
+```bash
+python3 src/spark_batch_pipeline.py
+```
+
+Generated report:
 
 ```text
-data/processed/germany_crude_oil_imports_clean.csv
-data/processed/global_oil_trade_clean.csv
-data/processed/country_name_mapping_clean.csv
-data/processed/wdi_fuel_trade_long.csv
+data/processed/spark_batch_report.json
 ```
+
+This step adds the Spark batch-processing layer that reruns the pipeline from
+raw data to curated outputs. The local environment uses PySpark `4.1.1`; the
+script automatically prefers the installed Java 21 runtime because the default
+Java 25 runtime is not compatible with local Spark/Hadoop file access.
+
+What this step does:
+
+- Reads the raw CSV files with PySpark
+- Recreates the pandas cleaning logic with Spark DataFrames
+- Standardizes columns, country IDs, partner IDs, dates, HS codes, and numeric
+  fields
+- Converts WDI fuel import/export year columns from wide format to long format
+- Writes Spark-managed CSV output directories
+- Compares Spark row counts against the pandas prototype outputs
+
+Step 3 outputs:
+
+| Spark output directory | Rows | Columns | Pandas row-count match |
+| --- | ---: | ---: | --- |
+| `data/processed/spark/germany_crude_oil_imports_clean` | 612 | 11 | yes |
+| `data/processed/spark/global_oil_trade_clean` | 20 | 25 | yes |
+| `data/processed/spark/country_name_mapping_clean` | 137 | 3 | yes |
+| `data/processed/spark/wdi_fuel_trade_long` | 19445 | 10 | yes |
+
+Data quality notes:
+
+- Spark row counts match the pandas prototype for all four curated outputs.
+- `germany_crude_oil_imports_clean` has 6 missing `quantity_unit` values.
+- `wdi_fuel_trade_long` has 3977 missing `region` values and 4127 missing
+  `income_group` values, matching the expected World Bank aggregate entries.
+- Spark writes each output as a directory containing a `part-*.csv` file and a
+  `_SUCCESS` marker.
 
 ## Step 4: BigQuery Warehouse Layer
 
-Status: planned
+Status: completed and loaded to BigQuery
 
-After the Spark batch layer is stable, the cleaned datasets will be prepared for
-loading into Google BigQuery.
-
-Planned actions:
-
-- Define BigQuery dataset and table names
-- Create table schemas for curated outputs
-- Add a loading script or documented `bq` commands
-- Validate loaded row counts against local processed outputs
-
-Planned tables:
+Script:
 
 ```text
-germany_crude_oil_imports_clean
-global_oil_trade_clean
-country_name_mapping_clean
-wdi_fuel_trade_long
+src/prepare_bigquery.py
 ```
+
+Command:
+
+```bash
+python3 src/prepare_bigquery.py
+```
+
+Generated report:
+
+```text
+data/processed/bigquery_warehouse_report.json
+```
+
+This step prepares and loads the cleaned Spark outputs into Google BigQuery. It
+creates table schemas, a reusable `bq` load script, and validation SQL.
+
+Generated artifacts:
+
+| Artifact | Purpose |
+| --- | --- |
+| `warehouse/bigquery/schemas/germany_crude_oil_imports_clean.json` | BigQuery schema for Germany crude oil imports |
+| `warehouse/bigquery/schemas/global_oil_trade_clean.json` | BigQuery schema for global trade records |
+| `warehouse/bigquery/schemas/country_name_mapping_clean.json` | BigQuery schema for country mapping |
+| `warehouse/bigquery/schemas/wdi_fuel_trade_long.json` | BigQuery schema for WDI fuel trade indicators |
+| `warehouse/bigquery/setup_iam.sh` | Shell script for service-account IAM setup |
+| `warehouse/bigquery/load_to_bigquery.sh` | Shell script for creating the dataset and loading all tables |
+| `warehouse/bigquery/validation_queries.sql` | SQL checks for row counts and key missing-value checks |
+
+Default warehouse settings:
+
+```text
+BigQuery dataset: Germany_oil_data
+GCP project ID: zoomcampde2026
+BigQuery location: US
+GCS staging bucket: oil-data-temp-bucket-123
+GCS staging path: gs://oil-data-temp-bucket-123/bigquery_loads/Germany_oil_data/
+Default load mode: direct local bq load from Spark CSV part files
+Service account name: spark-bq
+Service account ID: spark-bq
+Service account email: spark-bq@zoomcampde2026.iam.gserviceaccount.com
+Service account key path: warehouse/bigquery/key.json
+```
+
+Prepared tables:
+
+| BigQuery table | Source | Rows | Schema fields |
+| --- | --- | ---: | ---: |
+| `Germany_oil_data.germany_crude_oil_imports_clean` | `data/processed/spark/germany_crude_oil_imports_clean/part-*.csv` | 612 | 11 |
+| `Germany_oil_data.global_oil_trade_clean` | `data/processed/spark/global_oil_trade_clean/part-*.csv` | 20 | 25 |
+| `Germany_oil_data.country_name_mapping_clean` | `data/processed/spark/country_name_mapping_clean/part-*.csv` | 137 | 3 |
+| `Germany_oil_data.wdi_fuel_trade_long` | `data/processed/spark/wdi_fuel_trade_long/part-*.csv` | 19445 | 10 |
+
+Load command:
+
+```bash
+export GCP_PROJECT_ID="zoomcampde2026"
+export BQ_DATASET="Germany_oil_data"
+export BQ_LOCATION="US"
+export GCS_BUCKET="oil-data-temp-bucket-123"
+export SERVICE_ACCOUNT_ID="spark-bq"
+export SERVICE_ACCOUNT_NAME="spark-bq"
+export GOOGLE_APPLICATION_CREDENTIALS="warehouse/bigquery/key.json"
+warehouse/bigquery/load_to_bigquery.sh
+```
+
+Step 4 load result:
+
+- Google Cloud CLI was installed in the working container.
+- Service-account authentication succeeded with `warehouse/bigquery/key.json`.
+- All four curated Spark outputs were loaded to BigQuery with direct local
+  `bq load`.
+- The load script defaults to `USE_GCS_STAGING=false`.
+- Set `USE_GCS_STAGING=true` only after the service account has object access on
+  `gs://oil-data-temp-bucket-123`.
+- `warehouse/bigquery/setup_iam.sh` was not completed from the service account
+  because Cloud Resource Manager and IAM APIs are disabled or inaccessible for
+  that identity.
+- `GOOGLE_APPLICATION_CREDENTIALS` should point to the real local JSON key file
+  for the `spark-bq` service account. This project now uses
+  `warehouse/bigquery/key.json` as the default local key path.
+- Do not store or commit the service account JSON key in this repository.
+
+BigQuery validation result:
+
+| Table | Expected rows | BigQuery rows | Match |
+| --- | ---: | ---: | --- |
+| `Germany_oil_data.germany_crude_oil_imports_clean` | 612 | 612 | yes |
+| `Germany_oil_data.global_oil_trade_clean` | 20 | 20 | yes |
+| `Germany_oil_data.country_name_mapping_clean` | 137 | 137 | yes |
+| `Germany_oil_data.wdi_fuel_trade_long` | 19445 | 19445 | yes |
+
+Validation notes:
+
+- Germany import records have 0 missing `country_id`, 0 missing `partner_id`,
+  and 6 missing `quantity_unit` values.
+- Global trade records have 0 missing `export_country_id`, 0 missing
+  `origin_country_id`, and 0 missing `hs_code` values.
+- WDI records have 0 missing `country_id`, 3977 missing `region` values, and
+  4127 missing `income_group` values for World Bank aggregate entries.
 
 ## Step 5: dbt Analytics Modeling Layer
 
-Status: planned
+Status: completed
 
 dbt will be used after the warehouse layer to build analytics-friendly models
 on top of the curated BigQuery tables.
 
-Planned actions:
+Project files:
 
-- Add a dbt project structure
-- Define source tables from BigQuery
-- Build staging models
-- Build marts for Germany imports, global trade records, and WDI fuel indicators
-- Add dbt tests for unique IDs, not-null fields, and accepted values
+```text
+dbt_project.yml
+profiles.yml
+models/sources.yml
+models/staging/
+models/marts/
+models/facts/
+tests/
+```
+
+Default dbt settings:
+
+```text
+dbt profile: germany_crude_oil_trade
+BigQuery source dataset: Germany_oil_data
+BigQuery analytics dataset: Germany_oil_analytics
+GCP project ID: zoomcampde2026
+BigQuery location: US
+Service account key path: warehouse/bigquery/key.json
+```
+
+Environment variables can override the defaults:
+
+```bash
+export GCP_PROJECT_ID="zoomcampde2026"
+export BQ_DATASET="Germany_oil_data"
+export DBT_DATASET="Germany_oil_analytics"
+export BQ_LOCATION="US"
+export GOOGLE_APPLICATION_CREDENTIALS="warehouse/bigquery/key.json"
+```
+
+Commands:
+
+```bash
+dbt debug --profiles-dir .
+dbt parse --profiles-dir .
+dbt build --profiles-dir .
+```
+
+Current source definitions:
+
+| Source table | dbt source |
+| --- | --- |
+| `Germany_oil_data.germany_crude_oil_imports_clean` | `source('oil_trade_warehouse', 'germany_crude_oil_imports_clean')` |
+| `Germany_oil_data.global_oil_trade_clean` | `source('oil_trade_warehouse', 'global_oil_trade_clean')` |
+| `Germany_oil_data.country_name_mapping_clean` | `source('oil_trade_warehouse', 'country_name_mapping_clean')` |
+| `Germany_oil_data.wdi_fuel_trade_long` | `source('oil_trade_warehouse', 'wdi_fuel_trade_long')` |
+| `Germany_oil_data.crude_oil_prices_clean` | `source('oil_trade_warehouse', 'crude_oil_prices_clean')` |
+
+Current staging models:
+
+| Model | Purpose |
+| --- | --- |
+| `stg_germany_crude_oil_imports` | Germany import records with stable dbt record IDs |
+| `stg_global_oil_trade` | Global trade records with stable dbt record IDs |
+| `stg_country_name_mapping` | Country reference data exposed through dbt |
+| `stg_wdi_fuel_trade` | WDI fuel import/export indicators with stable dbt record IDs |
+| `stg_oil_prices` | Annual crude oil price time series |
+
+Current dimensions:
+
+| Model | Purpose |
+| --- | --- |
+| `dim_country` | Deduplicated country dimension with one row per numeric country ID |
+| `dim_commodity` | Commodity descriptions and HS codes |
+| `dim_date` | Calendar attributes for trade, WDI, and prices |
+| `dim_indicator` | WDI indicator metadata |
+
+Current facts:
+
+| Model | Grain |
+| --- | --- |
+| `fact_oil_trade_germany` | year, Germany, partner, commodity, quantity unit |
+| `fact_oil_trade_global` | source transaction |
+| `fact_wdi_energy` | country, year, indicator |
+| `fact_oil_prices` | annual price date |
+
+Data model design:
+
+The datasets have different grains, so the analytics layer uses a dimensional
+star schema instead of one wide table.
+
+| Source dataset | Natural grain | dbt fact model |
+| --- | --- | --- |
+| `germany_crude_oil_imports_clean` | country, year, partner, commodity | `fact_oil_trade_germany` |
+| `global_oil_trade_clean` | transaction record | `fact_oil_trade_global` |
+| `wdi_fuel_trade_long` | country, year, WDI indicator | `fact_wdi_energy` |
+| `crude_oil_prices_clean` | price date | `fact_oil_prices` |
+
+Dimension tables:
+
+| Dimension | Purpose |
+| --- | --- |
+| `dim_country` | Numeric country codes, names, WDI/ISO alpha codes, region, and income group |
+| `dim_commodity` | Germany commodity descriptions and global HS-code products |
+| `dim_date` | Shared date attributes for trade, WDI, and price facts |
+| `dim_indicator` | WDI fuel import/export indicator metadata |
+
+Relationship rules:
+
+- `fact_oil_trade_germany.country_code` and `partner_code` relate to
+  `dim_country.country_code`.
+- `fact_oil_trade_global.export_country_code` and `origin_country_code` relate
+  to `dim_country.country_code`.
+- `fact_wdi_energy.country_code` relates to `dim_country.country_code`.
+- All facts relate to `dim_date` through `date`; annual datasets use January 1
+  of the reporting year.
+- Commodity facts relate to `dim_commodity` through `commodity_id`.
+- WDI facts relate to `dim_indicator` through `indicator_id`.
+
+`fact_oil_trade_global.importer_name` and `supplier_name` are organization
+names in the source data, not country IDs. They are retained as transaction
+attributes and are not linked to `dim_country`.
+
+Current tests:
+
+- Source and model not-null checks for keys, years, and value fields
+- Unique checks for generated staging record IDs and country IDs
+- Accepted-value checks for `trade_direction`
+- Singular data tests for positive trade values, positive oil prices, and WDI year ranges
+
+Step 5 build result:
+
+- dbt Core `1.11.8` and dbt BigQuery adapter `1.11.1` are installed.
+- `dbt debug --profiles-dir .` passed with service-account authentication.
+- `dbt build --profiles-dir .` completed successfully.
+- Build summary: star-schema dbt graph with staging, dimension, and fact models.
+- Current dbt result: PASS=120, WARN=0, ERROR=0, SKIP=0.
+- Result summary: see the latest `data/processed/orchestration_report.json`.
+
+Created BigQuery analytics objects in `Germany_oil_analytics`:
+
+| Object | Type | Build result |
+| --- | --- | --- |
+| `stg_country_name_mapping` | view | created |
+| `stg_germany_crude_oil_imports` | view | created |
+| `stg_global_oil_trade` | view | created |
+| `stg_wdi_fuel_trade` | view | created |
+| `stg_oil_prices` | view | created |
+| `dim_country` | table | one row per country ID |
+| `dim_commodity` | table | one row per commodity ID |
+| `dim_date` | table | one row per date |
+| `dim_indicator` | table | one row per WDI indicator ID |
+| `fact_oil_trade_germany` | table | Germany import fact |
+| `fact_oil_trade_global` | table | global transaction fact |
+| `fact_wdi_energy` | table | WDI country-year-indicator fact |
+| `fact_oil_prices` | table | annual crude price fact |
+
+Modeling notes:
+
+- `country_id` is not unique in `country_name_mapping_clean` because some
+  country IDs map to multiple names or aliases. Use `dim_country` for a unique
+  country dimension.
+- `dim_country` includes the country reference mapping, WDI country metadata,
+  and observed trade countries from the Germany and global trade facts, so fact
+  foreign keys have complete dimension coverage.
+- For Power BI, use numeric `country_code` and `partner_code` fields for
+  country relationships. Legacy `country_id` and `partner_id` fields remain in
+  the dbt facts for compatibility, and WDI alpha codes are exposed as
+  `iso_country_code` in `dim_country`.
+- Germany crude oil import records can contain duplicate business-grain rows.
+  The staging model creates a stable synthetic record ID using a row-grain key
+  plus duplicate sequence.
 
 ## Step 6: Orchestration Layer
 
-Status: planned
+Status: completed
 
-An orchestration tool such as Airflow or Prefect can run the pipeline
-end-to-end.
+The project now includes a dependency-light local orchestration runner that can
+run the pipeline end-to-end. It is designed so the same command can later be
+called from cron, GitHub Actions, Airflow, or Prefect.
 
-Planned actions:
+Script:
 
-- Schedule Spark batch processing
-- Load processed outputs into BigQuery
-- Run dbt models and tests
-- Produce run logs and failure notifications
+```text
+src/orchestrate_pipeline.py
+```
+
+Command:
+
+```bash
+python3 src/orchestrate_pipeline.py
+```
+
+Generated report:
+
+```text
+data/processed/orchestration_report.json
+```
+
+What this step does:
+
+- Run Spark batch processing from raw CSV files to curated outputs
+- Regenerate BigQuery schemas, load script, and validation SQL
+- Load Spark output files into BigQuery warehouse tables
+- Run `dbt debug` to validate the BigQuery/dbt connection
+- Run `dbt build` to create analytics views/tables and execute tests
+- Write step-level status, timing, command metadata, and output tails to an
+  orchestration report
+
+Useful command variants:
+
+```bash
+python3 src/orchestrate_pipeline.py --dry-run
+python3 src/orchestrate_pipeline.py --skip-bigquery-load
+python3 src/orchestrate_pipeline.py --skip-dbt
+python3 src/orchestrate_pipeline.py --only dbt_debug dbt_build
+```
+
+Default orchestration environment:
+
+```text
+GCP_PROJECT_ID=zoomcampde2026
+BQ_DATASET=Germany_oil_data
+DBT_DATASET=Germany_oil_analytics
+BQ_LOCATION=US
+GOOGLE_APPLICATION_CREDENTIALS=warehouse/bigquery/key.json
+DBT_SEND_ANONYMOUS_USAGE_STATS=false
+```
+
+Scheduling example:
+
+```cron
+0 6 * * * cd /path/to/project && python3 src/orchestrate_pipeline.py
+```
+
+Step 6 run result:
+
+- `python3 -m py_compile src/orchestrate_pipeline.py` passed.
+- `python3 src/orchestrate_pipeline.py --dry-run` passed and listed the planned
+  steps.
+- `python3 src/orchestrate_pipeline.py` completed successfully.
+- Spark batch output row counts matched the pandas prototype outputs.
+- BigQuery direct local loads completed for all four warehouse tables.
+- `dbt debug --profiles-dir .` passed.
+- `dbt build --profiles-dir .` completed successfully.
+- Final dbt summary: PASS=120, WARN=0, ERROR=0, SKIP=0.
+
+Orchestrated run timings:
+
+| Step | Result | Duration |
+| --- | --- | ---: |
+| `spark_batch` | success | 73.7 seconds |
+| `prepare_bigquery` | success | 0.1 seconds |
+| `load_bigquery` | success | 32.7 seconds |
+| `dbt_debug` | success | 6.9 seconds |
+| `dbt_build` | success | 30.9 seconds |
+
+Run notes:
+
+- Google Cloud authentication succeeded with
+  `spark-bq@zoomcampde2026.iam.gserviceaccount.com`.
+- The load step still reports that the Cloud Resource Manager API is disabled
+  or inaccessible for the service account, but this warning does not block the
+  direct local BigQuery loads.
+
+Planned production hardening:
+
+- Move local service-account credentials to a secret manager
+- Add notification hooks for failed runs
+- Run the orchestration command from a managed scheduler
 
 ## Step 7: Power BI Dashboard Layer
 
-Status: planned
+Status: completed
 
 Power BI will connect to the curated BigQuery/dbt models for analytical
 reporting.
 
-Planned dashboard themes:
+Dashboard handoff folder:
+
+```text
+powerbi/
+```
+
+Power BI path:
+
+```text
+powerbi/README.md
+```
+
+Start from `powerbi/README.md`, then follow `powerbi/connection_guide.md` to
+connect Power BI Desktop to the BigQuery reporting dataset.
+
+Generated artifacts:
+
+| Artifact | Purpose |
+| --- | --- |
+| `powerbi/README.md` | Power BI build order and table list |
+| `powerbi/connection_guide.md` | BigQuery connection and refresh instructions |
+| `powerbi/dashboard_blueprint.md` | Dashboard pages, visuals, slicers, and fields |
+| `powerbi/one_page_dashboard.md` | Single-page dashboard layout for the current Power BI model |
+| `powerbi/measures.dax` | Starter DAX measures for Power BI |
+| `powerbi/measures_current_model.dax` | DAX measures using the current dbt table names in Power BI |
+| `powerbi/model_relationships.md` | Suggested semantic model relationships |
+| `powerbi/theme.json` | Starter Power BI report theme |
+| `powerbi/validation_queries.sql` | BigQuery smoke-test queries for reporting marts |
+
+Power BI source dataset:
+
+```text
+GCP project: zoomcampde2026
+BigQuery dataset: Germany_oil_analytics
+```
+
+Recommended Power BI tables:
+
+| BigQuery table | Power BI table name | Grain |
+| --- | --- | --- |
+| `Germany_oil_analytics.fact_oil_trade_germany` | `Germany Imports` | year, partner, commodity, quantity unit |
+| `Germany_oil_analytics.fact_oil_trade_global` | `Global Oil Trade` | source transaction |
+| `Germany_oil_analytics.fact_wdi_energy` | `WDI Fuel Trade` | country, year, indicator |
+| `Germany_oil_analytics.fact_oil_prices` | `Oil Prices` | annual price date |
+| `Germany_oil_analytics.dim_country` | `Country Dimension` | one row per country ID |
+| `Germany_oil_analytics.dim_commodity` | `Commodity Dimension` | one row per commodity ID |
+| `Germany_oil_analytics.dim_date` | `Date Dimension` | one row per date |
+| `Germany_oil_analytics.dim_indicator` | `Indicator Dimension` | one row per WDI indicator ID |
+
+Dashboard pages:
 
 - Germany crude oil imports by partner country
 - Trade value and quantity trends over time
-- Global trade transaction summaries
 - WDI fuel import/export percentage trends by country and region
 
-# DTAMODEL IN pOWER bi
-![alt text](image-1.png)
+Step 7 validation result:
+
+- `powerbi/theme.json` passed JSON validation.
+- BigQuery smoke query confirms the dbt fact and dimension tables are available.
+
+| Reporting table | Grain |
+| --- | ---: |
+| `fact_oil_trade_germany` | Germany import fact |
+| `fact_oil_trade_global` | global transaction fact |
+| `fact_wdi_energy` | WDI country-year-indicator fact |
+| `fact_oil_prices` | annual crude price fact |
 
 ## Verification Commands
 
@@ -355,4 +763,28 @@ Run the current cleaner:
 
 ```bash
 python3 src/clean_datasets.py
+```
+
+Run the Spark batch pipeline:
+
+```bash
+python3 src/spark_batch_pipeline.py
+```
+
+Prepare BigQuery warehouse artifacts:
+
+```bash
+python3 src/prepare_bigquery.py
+```
+
+Run the orchestrated pipeline:
+
+```bash
+python3 src/orchestrate_pipeline.py
+```
+
+Validate the Power BI theme JSON:
+
+```bash
+python3 -m json.tool powerbi/theme.json
 ```
