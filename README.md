@@ -17,6 +17,8 @@ The current project starts with three source groups:
 
 ## Architecture
 
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/33318fa9-2b36-4c69-a971-8054a776e655" />
+
 This project follows a modern data engineering architecture:
 
 - Data sources: CSV files for Germany trade data, global trade data, and World
