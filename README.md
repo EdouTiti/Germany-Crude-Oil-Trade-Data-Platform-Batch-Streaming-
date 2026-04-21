@@ -706,7 +706,8 @@ Power BI tables:
 | `Germany_oil_analytics.dim_indicator` | `Indicator Dimension` | one row per WDI indicator ID |
 
 # Generated Dashboard
-<img width="507" height="327" alt="7-Power_BI-Dashboard" src="https://github.com/user-attachments/assets/22a62df4-181d-4d04-ad99-78a7b7a7df27" />
+<img width="520" height="335" alt="image" src="https://github.com/user-attachments/assets/987cd338-83cf-40b2-a1e9-e2dae1d75acf" />
+
 
 - Germany crude oil imports by partner country
 - Trade value and quantity trends over time
