@@ -672,6 +672,9 @@ Planned production hardening:
 - Add notification hooks for failed runs
 - Run the orchestration command from a managed scheduler
 
+## dbt structure
+<img width="299" height="212" alt="image" src="https://github.com/user-attachments/assets/d2554eb4-d7c6-4348-b099-b30e5287d63b" />
+
 ## Step 7: Power BI Dashboard Layer
 
 <img width="664" height="346" alt="6- Data Model in Power BI" src="https://github.com/user-attachments/assets/a72fd731-eaf5-4dcc-b3f4-5bfa0be3601e" />
