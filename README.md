@@ -6,7 +6,7 @@ report, so the work stays clear and reproducible.
 
 ## Project Goal
 
-Build a batch and streaming data platform that can load, validate, clean,
+Build a batch data platform that can load, validate, clean,
 transform, and analyze oil trade datasets from multiple raw sources.
 
 The current project starts with three source groups:
