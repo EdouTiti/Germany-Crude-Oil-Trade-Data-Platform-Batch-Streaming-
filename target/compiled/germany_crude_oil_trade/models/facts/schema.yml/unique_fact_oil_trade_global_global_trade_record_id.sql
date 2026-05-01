@@ -1,0 +1,21 @@
+
+    
+    
+
+with dbt_test__target as (
+
+  select global_trade_record_id as unique_field
+  from `zoomcampde2026`.`Germany_oil_analytics`.`fact_oil_trade_global`
+  where global_trade_record_id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+

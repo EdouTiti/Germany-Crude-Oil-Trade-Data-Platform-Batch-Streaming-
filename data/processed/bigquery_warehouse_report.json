@@ -1,0 +1,77 @@
+{
+  "status": "prepared",
+  "gcp_project_id": "zoomcampde2026",
+  "default_dataset": "Germany_oil_data",
+  "default_location": "US",
+  "gcs_bucket": "oil-data-temp-bucket-123",
+  "gcs_staging_prefix": "bigquery_loads/Germany_oil_data",
+  "service_account": {
+    "name": "spark-bq",
+    "id": "spark-bq",
+    "email": "spark-bq@zoomcampde2026.iam.gserviceaccount.com",
+    "key_path": "warehouse/bigquery/key.json"
+  },
+  "load_script": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/load_to_bigquery.sh",
+  "iam_script": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/setup_iam.sh",
+  "validation_sql": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/validation_queries.sql",
+  "bq_cli_available": true,
+  "gcloud_cli_available": true,
+  "gsutil_cli_available": true,
+  "tables": {
+    "germany_crude_oil_imports_clean": {
+      "source_part_file": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/germany_crude_oil_imports_clean/part-00000-0161234d-4426-4207-b00c-d86063aa6fa4-c000.csv",
+      "schema_path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/schemas/germany_crude_oil_imports_clean.json",
+      "bigquery_table": "Germany_oil_data.germany_crude_oil_imports_clean",
+      "rows": 612,
+      "columns_count": 11,
+      "schema_fields": 11,
+      "schema_matches_spark_columns": true
+    },
+    "global_oil_trade_clean": {
+      "source_part_file": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/global_oil_trade_clean/part-00000-872fcb2b-c6ba-4309-b0f2-3e74a5615686-c000.csv",
+      "schema_path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/schemas/global_oil_trade_clean.json",
+      "bigquery_table": "Germany_oil_data.global_oil_trade_clean",
+      "rows": 20,
+      "columns_count": 25,
+      "schema_fields": 25,
+      "schema_matches_spark_columns": true
+    },
+    "country_name_mapping_clean": {
+      "source_part_file": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/country_name_mapping_clean/part-00000-9bc1a25a-e1f8-4568-8852-cc20594db3dd-c000.csv",
+      "schema_path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/schemas/country_name_mapping_clean.json",
+      "bigquery_table": "Germany_oil_data.country_name_mapping_clean",
+      "rows": 137,
+      "columns_count": 3,
+      "schema_fields": 3,
+      "schema_matches_spark_columns": true
+    },
+    "wdi_fuel_trade_long": {
+      "source_part_file": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/wdi_fuel_trade_long/part-00000-222dc032-9274-4e9b-a050-45195169aee1-c000.csv",
+      "schema_path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/schemas/wdi_fuel_trade_long.json",
+      "bigquery_table": "Germany_oil_data.wdi_fuel_trade_long",
+      "rows": 19445,
+      "columns_count": 10,
+      "schema_fields": 10,
+      "schema_matches_spark_columns": true
+    },
+    "crude_oil_prices_clean": {
+      "source_part_file": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/crude_oil_prices_clean/part-00000-b1dce4b7-1305-404a-a819-46a42136b9b8-c000.csv",
+      "schema_path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/schemas/crude_oil_prices_clean.json",
+      "bigquery_table": "Germany_oil_data.crude_oil_prices_clean",
+      "rows": 164,
+      "columns_count": 5,
+      "schema_fields": 5,
+      "schema_matches_spark_columns": true
+    }
+  },
+  "notes": [
+    "This step prepares BigQuery warehouse artifacts but does not load data.",
+    "The load script defaults to direct local bq loads from Spark CSV part files.",
+    "Set USE_GCS_STAGING=true to stage Spark CSV outputs through gs://oil-data-temp-bucket-123/bigquery_loads/Germany_oil_data/.",
+    "warehouse/bigquery/setup_iam.sh documents the service-account roles required for loading.",
+    "GCP_PROJECT_ID defaults to zoomcampde2026 in generated shell scripts.",
+    "GOOGLE_APPLICATION_CREDENTIALS defaults to warehouse/bigquery/key.json.",
+    "Do not commit the service account JSON key to the repository.",
+    "The BigQuery CLI and either gcloud storage or gsutil are required for loading."
+  ]
+}

@@ -1,0 +1,613 @@
+year,country,country_id,partner,partner_id,partner2,commodity_description,quantity,quantity_unit,trade_value,trade_direction
+2019,Germany,87,Trinidad and Tobago,359,World,Petroleum oils and oils obtained from bituminous minerals; crude,52243000,kg,26099764.76,import
+2019,Germany,87,Tunisia,354,World,Petroleum oils and oils obtained from bituminous minerals; crude,94072100,kg,53287627.53,import
+2019,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,4831784000,kg,2414995210.0,import
+2019,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,199973000,kg,90984327.45,import
+2019,Germany,87,Russian Federation,301,World,Petroleum oils and oils obtained from bituminous minerals; crude,26668013000,kg,11951944897.0,import
+2019,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,6312036300,kg,3050123645.0,import
+2019,Germany,87,Canada,54,World,Petroleum oils and oils obtained from bituminous minerals; crude,114252000,kg,54194746.65,import
+2019,Germany,87,Cameroon,67,World,Petroleum oils and oils obtained from bituminous minerals; crude,78024000,kg,33545204.82,import
+2019,Germany,87,Chad,341,World,Petroleum oils and oils obtained from bituminous minerals; crude,133597000,kg,65394134.66,import
+2019,Germany,87,Azerbaijan,23,World,Petroleum oils and oils obtained from bituminous minerals; crude,2976414000,kg,1478556515.0,import
+2019,Germany,87,Ghana,129,World,Petroleum oils and oils obtained from bituminous minerals; crude,136499000,kg,69715156.05,import
+2019,Germany,87,Libya,218,World,Petroleum oils and oils obtained from bituminous minerals; crude,8490815000,kg,4295735772.0,import
+2019,Germany,87,Iraq,171,World,Petroleum oils and oils obtained from bituminous minerals; crude,1673838000,kg,736631204.1,import
+2019,Germany,87,Nigeria,256,World,Petroleum oils and oils obtained from bituminous minerals; crude,4332649000,kg,2132124251.0,import
+2019,Germany,87,France,118,World,Petroleum oils and oils obtained from bituminous minerals; crude,4501061,kg,1989938.125,import
+2019,Germany,87,Netherlands,260,World,Petroleum oils and oils obtained from bituminous minerals; crude,9148610700,kg,4414808018.0,import
+2019,Germany,87,Norway,262,World,Petroleum oils and oils obtained from bituminous minerals; crude,8314234040,,4061066612.0,import
+2019,Germany,87,Equatorial Guinea,137,World,Petroleum oils and oils obtained from bituminous minerals; crude,132529000,kg,60046089.46,import
+2019,Germany,87,Egypt,105,World,Petroleum oils and oils obtained from bituminous minerals; crude,1620957000,kg,788376575.1,import
+2019,Germany,87,Côte d'Ivoire,64,World,Petroleum oils and oils obtained from bituminous minerals; crude,285832000,kg,124429668.8,import
+2019,Germany,87,Italy,179,World,Petroleum oils and oils obtained from bituminous minerals; crude,29529500,kg,9296690.743,import
+2019,Germany,87,Belgium,28,World,Petroleum oils and oils obtained from bituminous minerals; crude,40961700,kg,19998656.91,import
+2019,Germany,87,Denmark,90,World,Petroleum oils and oils obtained from bituminous minerals; crude,562143000,kg,271025145.1,import
+2019,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,85869227301,,40745587766.0,import
+2019,Germany,87,Saudi Arabia,304,World,Petroleum oils and oils obtained from bituminous minerals; crude,1490048600,kg,656752004.9,import
+2019,Germany,87,Kazakhstan,196,World,Petroleum oils and oils obtained from bituminous minerals; crude,6479232000,kg,3170492815.0,import
+2019,Germany,87,Algeria,95,World,Petroleum oils and oils obtained from bituminous minerals; crude,858059400,kg,434797915.3,import
+2019,Germany,87,Venezuela,376,World,Petroleum oils and oils obtained from bituminous minerals; crude,746747900,kg,248342693.0,import
+2019,Germany,87,Yemen,387,World,Petroleum oils and oils obtained from bituminous minerals; crude,61632000,kg,30832487.56,import
+2020,Germany,87,Russian Federation,301,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,206581000,kg,66676613.97,import
+2020,Germany,87,Denmark,90,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,174142000,kg,61674957.23,import
+2020,Germany,87,Nigeria,256,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,277753000,kg,93397499.85,import
+2020,Germany,87,United Kingdom,124,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1513536000,kg,500488379.9,import
+2020,Germany,87,Netherlands,260,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,9773598000,kg,3054980167.0,import
+2020,Germany,87,Algeria,95,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,54829000,kg,17627915.94,import
+2020,Germany,87,Nigeria,256,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,3945329000,kg,1413312490.0,import
+2020,Germany,87,Brazil,46,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,68033000,kg,21511989.09,import
+2020,Germany,87,Azerbaijan,23,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1453834000,kg,507773601.0,import
+2020,Germany,87,Denmark,90,Denmark,Petroleum oils and oils obtained from bituminous minerals; crude,32850000,kg,10569467.42,import
+2020,Germany,87,Poland,282,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,275679320,kg,85755470.76,import
+2020,Germany,87,Chad,341,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,768075000,kg,235947618.8,import
+2020,Germany,87,Ghana,129,Ghana,Petroleum oils and oils obtained from bituminous minerals; crude,132438000,kg,41904602.89,import
+2020,Germany,87,Côte d'Ivoire,64,Côte d'Ivoire,Petroleum oils and oils obtained from bituminous minerals; crude,55194000,kg,18053629.48,import
+2020,Germany,87,Iraq,171,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,710675000,kg,184402868.2,import
+2020,Germany,87,Italy,179,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,172468300,kg,33352691.88,import
+2020,Germany,87,Tunisia,354,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,65983000,kg,21463084.56,import
+2020,Germany,87,Cameroon,67,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,19815000,kg,8694421.896,import
+2020,Germany,87,Algeria,95,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1200314000,kg,402547437.4,import
+2020,Germany,87,Yemen,387,Yemen,Petroleum oils and oils obtained from bituminous minerals; crude,31147000,kg,9707955.26,import
+2020,Germany,87,Congo,58,Congo,Petroleum oils and oils obtained from bituminous minerals; crude,3375000,kg,1569580.505,import
+2020,Germany,87,Iraq,171,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,105585000,kg,8096640.397,import
+2020,Germany,87,Chad,341,Chad,Petroleum oils and oils obtained from bituminous minerals; crude,133114000,kg,30602407.47,import
+2020,Germany,87,Egypt,105,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,1203537000,kg,393203455.7,import
+2020,Germany,87,Libya,218,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,1816562000,kg,834619521.3,import
+2020,Germany,87,United Kingdom,124,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,82771000,kg,25457605.67,import
+2020,Germany,87,Colombia,70,Colombia,Petroleum oils and oils obtained from bituminous minerals; crude,186850200,kg,55075936.31,import
+2020,Germany,87,United Kingdom,124,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,6077376200,kg,2127372364.0,import
+2020,Germany,87,Iraq,171,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,987888000,kg,260126373.3,import
+2020,Germany,87,Guyana,146,Guyana,Petroleum oils and oils obtained from bituminous minerals; crude,141000000,kg,42414378.19,import
+2020,Germany,87,Saudi Arabia,304,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,405168000,kg,106570644.4,import
+2020,Germany,87,Kazakhstan,196,Kazakhstan,Petroleum oils and oils obtained from bituminous minerals; crude,5615063000,kg,1872546170.0,import
+2020,Germany,87,Russian Federation,301,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,26077931000,kg,7934314451.0,import
+2020,Germany,87,Canada,54,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,484342000,kg,155116921.2,import
+2020,Germany,87,Azerbaijan,23,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,760521000,kg,300751380.1,import
+2020,Germany,87,Kazakhstan,196,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,1570396000,kg,622629433.1,import
+2020,Germany,87,Nigeria,256,Côte d'Ivoire,Petroleum oils and oils obtained from bituminous minerals; crude,34568000,kg,11478182.69,import
+2020,Germany,87,Saudi Arabia,304,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,1504446800,kg,434059618.2,import
+2020,Germany,87,Azerbaijan,23,World,Petroleum oils and oils obtained from bituminous minerals; crude,2214355000,kg,808524981.1,import
+2020,Germany,87,Egypt,105,World,Petroleum oils and oils obtained from bituminous minerals; crude,1203537000,kg,393203455.7,import
+2020,Germany,87,Ghana,129,World,Petroleum oils and oils obtained from bituminous minerals; crude,132438000,kg,41904602.89,import
+2020,Germany,87,Cameroon,67,World,Petroleum oils and oils obtained from bituminous minerals; crude,19815000,kg,8694421.896,import
+2020,Germany,87,Russian Federation,301,World,Petroleum oils and oils obtained from bituminous minerals; crude,26284512000,kg,8000991065.0,import
+2020,Germany,87,Netherlands,260,World,Petroleum oils and oils obtained from bituminous minerals; crude,9773598000,kg,3054980167.0,import
+2020,Germany,87,Libya,218,World,Petroleum oils and oils obtained from bituminous minerals; crude,1816562000,kg,834619521.3,import
+2020,Germany,87,Algeria,95,World,Petroleum oils and oils obtained from bituminous minerals; crude,1255143000,kg,420175353.3,import
+2020,Germany,87,Canada,54,World,Petroleum oils and oils obtained from bituminous minerals; crude,484342000,kg,155116921.2,import
+2020,Germany,87,Italy,179,World,Petroleum oils and oils obtained from bituminous minerals; crude,172468300,kg,33352691.88,import
+2020,Germany,87,Denmark,90,World,Petroleum oils and oils obtained from bituminous minerals; crude,206992000,kg,72244424.65,import
+2020,Germany,87,Colombia,70,World,Petroleum oils and oils obtained from bituminous minerals; crude,186850200,kg,55075936.31,import
+2020,Germany,87,Kazakhstan,196,World,Petroleum oils and oils obtained from bituminous minerals; crude,7185459000,kg,2495175603.0,import
+2020,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,7673683200,kg,2653318350.0,import
+2020,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,275679320,kg,85755470.76,import
+2020,Germany,87,Congo,58,World,Petroleum oils and oils obtained from bituminous minerals; crude,3375000,kg,1569580.505,import
+2020,Germany,87,Saudi Arabia,304,World,Petroleum oils and oils obtained from bituminous minerals; crude,1909614800,kg,540630262.6,import
+2020,Germany,87,Iraq,171,World,Petroleum oils and oils obtained from bituminous minerals; crude,1804148000,kg,452625881.9,import
+2020,Germany,87,Chad,341,World,Petroleum oils and oils obtained from bituminous minerals; crude,901189000,kg,266550026.3,import
+2020,Germany,87,Guyana,146,World,Petroleum oils and oils obtained from bituminous minerals; crude,141000000,kg,42414378.19,import
+2020,Germany,87,Yemen,387,World,Petroleum oils and oils obtained from bituminous minerals; crude,31147000,kg,9707955.26,import
+2020,Germany,87,Tunisia,354,World,Petroleum oils and oils obtained from bituminous minerals; crude,65983000,kg,21463084.56,import
+2020,Germany,87,Brazil,46,World,Petroleum oils and oils obtained from bituminous minerals; crude,68033000,kg,21511989.09,import
+2020,Germany,87,Nigeria,256,World,Petroleum oils and oils obtained from bituminous minerals; crude,4257650000,kg,1518188173.0,import
+2020,Germany,87,Côte d'Ivoire,64,World,Petroleum oils and oils obtained from bituminous minerals; crude,55194000,kg,18053629.48,import
+2020,Germany,87,Norway,262,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",6399175000,kg,2113883432.0,import
+2020,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,10210387000,kg,3374990389.0,import
+2020,Germany,87,France,118,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3712070,kg,1118863.372,import
+2020,Germany,87,Norway,262,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,5161572000,kg,1720304880.0,import
+2020,Germany,87,France,118,France,Petroleum oils and oils obtained from bituminous minerals; crude,3712070,kg,1118863.372,import
+2020,Germany,87,USA,371,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",10045548000,kg,3321842165.0,import
+2020,Germany,87,Norway,262,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,78429000,kg,15809163.35,import
+2020,Germany,87,Norway,262,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1159174000,kg,377769388.5,import
+2020,Germany,87,USA,371,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,164839000,kg,53148224.64,import
+2020,Germany,87,World,384,Chad,Petroleum oils and oils obtained from bituminous minerals; crude,133114000,kg,30602407.47,import
+2020,Germany,87,World,384,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,1816562000,kg,834619521.3,import
+2020,Germany,87,World,384,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,484342000,kg,155116921.2,import
+2020,Germany,87,World,384,Ghana,Petroleum oils and oils obtained from bituminous minerals; crude,132438000,kg,41904602.89,import
+2020,Germany,87,World,384,Yemen,Petroleum oils and oils obtained from bituminous minerals; crude,31147000,kg,9707955.26,import
+2020,Germany,87,World,384,Côte d'Ivoire,Petroleum oils and oils obtained from bituminous minerals; crude,89762000,kg,29531812.17,import
+2020,Germany,87,World,384,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,5161572000,kg,1720304880.0,import
+2020,Germany,87,World,384,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,65983000,kg,21463084.56,import
+2020,Germany,87,World,384,Denmark,Petroleum oils and oils obtained from bituminous minerals; crude,32850000,kg,10569467.42,import
+2020,Germany,87,World,384,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,987888000,kg,260126373.3,import
+2020,Germany,87,World,384,Guyana,Petroleum oils and oils obtained from bituminous minerals; crude,141000000,kg,42414378.19,import
+2020,Germany,87,World,384,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,333668300,kg,74619460.91,import
+2020,Germany,87,World,384,Kazakhstan,Petroleum oils and oils obtained from bituminous minerals; crude,5615063000,kg,1872546170.0,import
+2020,Germany,87,World,384,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,1608705000,kg,499774100.1,import
+2020,Germany,87,World,384,Congo,Petroleum oils and oils obtained from bituminous minerals; crude,3375000,kg,1569580.505,import
+2020,Germany,87,World,384,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,13324452000,kg,4225763147.0,import
+2020,Germany,87,World,384,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,1504446800,kg,434059618.2,import
+2020,Germany,87,World,384,USA,Petroleum oils and oils obtained from bituminous minerals; crude,10045548000,kg,3321842165.0,import
+2020,Germany,87,World,384,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1200314000,kg,402547437.4,import
+2020,Germany,87,World,384,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,3945329000,kg,1413312490.0,import
+2020,Germany,87,World,384,Colombia,Petroleum oils and oils obtained from bituminous minerals; crude,186850200,kg,55075936.31,import
+2020,Germany,87,World,384,France,Petroleum oils and oils obtained from bituminous minerals; crude,3712070,kg,1118863.372,import
+2020,Germany,87,World,384,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,68033000,kg,21511989.09,import
+2020,Germany,87,World,384,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,275679320,kg,85755470.76,import
+2020,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,84736041890,kg,27495840611.0,import
+2020,Germany,87,World,384,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1453834000,kg,507773601.0,import
+2020,Germany,87,World,384,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,27753912000,kg,8565040524.0,import
+2020,Germany,87,World,384,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,787890000,kg,244642040.7,import
+2020,Germany,87,World,384,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,1471196000,kg,485154248.2,import
+2020,Germany,87,World,384,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,6077376200,kg,2127372364.0,import
+2021,Germany,87,Russian Federation,301,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,23364163058,,10928956353.0,import
+2021,Germany,87,Russian Federation,301,World,Petroleum oils and oils obtained from bituminous minerals; crude,24320027058,,11454509604.0,import
+2021,Germany,87,World,384,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,25547698058,,12137095376.0,import
+2021,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,79378005959,,40339157341.0,import
+2021,Germany,87,Brazil,46,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,139827500,kg,65303866.0,import
+2021,Germany,87,Canada,54,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,240978637,kg,102419118.2,import
+2021,Germany,87,Guyana,146,Guyana,Petroleum oils and oils obtained from bituminous minerals; crude,19928000,kg,12374144.73,import
+2021,Germany,87,Nigeria,256,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,1982092000,kg,1121099851.0,import
+2021,Germany,87,Kazakhstan,196,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,2183535000,kg,1208139023.0,import
+2021,Germany,87,Azerbaijan,23,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1112368000,kg,608481595.9,import
+2021,Germany,87,Saudi Arabia,304,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,350898000,kg,175291686.9,import
+2021,Germany,87,United Kingdom,124,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,4385436300,kg,2210989424.0,import
+2021,Germany,87,Yemen,387,Yemen,Petroleum oils and oils obtained from bituminous minerals; crude,181817000,kg,97273952.15,import
+2021,Germany,87,Kazakhstan,196,Kazakhstan,Petroleum oils and oils obtained from bituminous minerals; crude,5317616000,kg,2772068945.0,import
+2021,Germany,87,Trinidad and Tobago,359,Trinidad and Tobago,Petroleum oils and oils obtained from bituminous minerals; crude,51904000,kg,28397360.02,import
+2021,Germany,87,Iraq,171,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,1391791000,kg,671044844.3,import
+2021,Germany,87,Chad,341,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,2007223000,kg,1054301031.0,import
+2021,Germany,87,Italy,179,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,27890700,kg,9225456.567,import
+2021,Germany,87,Côte d'Ivoire,64,Côte d'Ivoire,Petroleum oils and oils obtained from bituminous minerals; crude,47206000,kg,24962290.5,import
+2021,Germany,87,Algeria,95,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,564351000,kg,314842101.6,import
+2021,Germany,87,Iraq,171,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,854083000,kg,423847206.9,import
+2021,Germany,87,Saudi Arabia,304,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,617158000,kg,283079415.5,import
+2021,Germany,87,Colombia,70,Colombia,Petroleum oils and oils obtained from bituminous minerals; crude,446022500,kg,210767777.5,import
+2021,Germany,87,Azerbaijan,23,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,363413000,kg,194668646.4,import
+2021,Germany,87,Tunisia,354,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,72252000,kg,38726049.8,import
+2021,Germany,87,Libya,218,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,6902873000,kg,3584802865.0,import
+2021,Germany,87,Egypt,105,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,451775000,kg,212654808.1,import
+2021,Germany,87,Poland,282,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,151045000,kg,71262670.86,import
+2021,Germany,87,Brazil,46,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,3290000,kg,1778438.37,import
+2021,Germany,87,United Kingdom,124,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1490074000,kg,775598156.1,import
+2021,Germany,87,Saudi Arabia,304,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,38306000,kg,18047325.15,import
+2021,Germany,87,Canada,54,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,47765000,kg,18117122.94,import
+2021,Germany,87,Nigeria,256,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,46471000,kg,20414662.58,import
+2021,Germany,87,Algeria,95,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,245476000,kg,155528201.5,import
+2021,Germany,87,Russian Federation,301,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,955864000,kg,525553251.3,import
+2021,Germany,87,Netherlands,260,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,9563485000,kg,5002407155.0,import
+2021,Germany,87,Denmark,90,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,34629000,kg,19131621.05,import
+2021,Germany,87,Libya,218,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,82036000,kg,45292784.32,import
+2021,Germany,87,Egypt,105,World,Petroleum oils and oils obtained from bituminous minerals; crude,451775000,kg,212654808.1,import
+2021,Germany,87,Saudi Arabia,304,World,Petroleum oils and oils obtained from bituminous minerals; crude,1006362000,kg,476418427.5,import
+2021,Germany,87,Tunisia,354,World,Petroleum oils and oils obtained from bituminous minerals; crude,72252000,kg,38726049.8,import
+2021,Germany,87,Canada,54,World,Petroleum oils and oils obtained from bituminous minerals; crude,288743637,kg,120536241.2,import
+2021,Germany,87,Nigeria,256,World,Petroleum oils and oils obtained from bituminous minerals; crude,2028563000,kg,1141514514.0,import
+2021,Germany,87,Yemen,387,World,Petroleum oils and oils obtained from bituminous minerals; crude,181817000,kg,97273952.15,import
+2021,Germany,87,Chad,341,World,Petroleum oils and oils obtained from bituminous minerals; crude,2007223000,kg,1054301031.0,import
+2021,Germany,87,Netherlands,260,World,Petroleum oils and oils obtained from bituminous minerals; crude,9563485000,kg,5002407155.0,import
+2021,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,5875510300,kg,2986587580.0,import
+2021,Germany,87,Italy,179,World,Petroleum oils and oils obtained from bituminous minerals; crude,27890700,kg,9225456.567,import
+2021,Germany,87,Iraq,171,World,Petroleum oils and oils obtained from bituminous minerals; crude,2245874000,kg,1094892051.0,import
+2021,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,151045000,kg,71262670.86,import
+2021,Germany,87,Denmark,90,World,Petroleum oils and oils obtained from bituminous minerals; crude,34629000,kg,19131621.05,import
+2021,Germany,87,Azerbaijan,23,World,Petroleum oils and oils obtained from bituminous minerals; crude,1475781000,kg,803150242.3,import
+2021,Germany,87,Guyana,146,World,Petroleum oils and oils obtained from bituminous minerals; crude,19928000,kg,12374144.73,import
+2021,Germany,87,Côte d'Ivoire,64,World,Petroleum oils and oils obtained from bituminous minerals; crude,47206000,kg,24962290.5,import
+2021,Germany,87,Libya,218,World,Petroleum oils and oils obtained from bituminous minerals; crude,6984909000,kg,3630095649.0,import
+2021,Germany,87,Colombia,70,World,Petroleum oils and oils obtained from bituminous minerals; crude,446022500,kg,210767777.5,import
+2021,Germany,87,Algeria,95,World,Petroleum oils and oils obtained from bituminous minerals; crude,809827000,kg,470370303.0,import
+2021,Germany,87,Kazakhstan,196,World,Petroleum oils and oils obtained from bituminous minerals; crude,7501151000,kg,3980207968.0,import
+2021,Germany,87,Trinidad and Tobago,359,World,Petroleum oils and oils obtained from bituminous minerals; crude,51904000,kg,28397360.02,import
+2021,Germany,87,Brazil,46,World,Petroleum oils and oils obtained from bituminous minerals; crude,143117500,kg,67082304.37,import
+2021,Germany,87,Norway,262,World,Petroleum oils and oils obtained from bituminous minerals; crude,5935499300,kg,3151606027.0,import
+2021,Germany,87,France,118,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",17717964,kg,9155074.258,import
+2021,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,7689746000,kg,4171547037.0,import
+2021,Germany,87,France,118,France,Petroleum oils and oils obtained from bituminous minerals; crude,17717964,kg,9155074.258,import
+2021,Germany,87,Norway,262,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,3938575000,kg,2092646425.0,import
+2021,Germany,87,USA,371,Switzerland,Petroleum oils and oils obtained from bituminous minerals; crude,3808000,kg,2540445.573,import
+2021,Germany,87,USA,371,USA,Petroleum oils and oils obtained from bituminous minerals; crude,7319533000,kg,3973293884.0,import
+2021,Germany,87,Norway,262,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1588933000,kg,857192755.8,import
+2021,Germany,87,Norway,262,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,407991300,kg,201766845.7,import
+2021,Germany,87,USA,371,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,366405000,kg,195712707.1,import
+2021,Germany,87,World,384,Trinidad and Tobago,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",51904000,kg,28397360.02,import
+2021,Germany,87,World,384,Italy,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",27890700,kg,9225456.567,import
+2021,Germany,87,World,384,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",802673000,kg,387946495.0,import
+2021,Germany,87,World,384,Kazakhstan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5317616000,kg,2772068945.0,import
+2021,Germany,87,World,384,Nigeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1982092000,kg,1121099851.0,import
+2021,Germany,87,World,384,France,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",17717964,kg,9155074.258,import
+2021,Germany,87,World,384,Türkiye,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1217496000,kg,618515853.3,import
+2021,Germany,87,World,384,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7319533000,kg,3973293884.0,import
+2021,Germany,87,World,384,Poland,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",151045000,kg,71262670.86,import
+2021,Germany,87,World,384,Saudi Arabia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",617158000,kg,283079415.5,import
+2021,Germany,87,World,384,Yemen,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",181817000,kg,97273952.15,import
+2021,Germany,87,World,384,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",4793427600,kg,2412756270.0,import
+2021,Germany,87,World,384,Côte d'Ivoire,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",47206000,kg,24962290.5,import
+2021,Germany,87,World,384,Iraq,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1391791000,kg,671044844.3,import
+2021,Germany,87,World,384,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2007223000,kg,1054301031.0,import
+2021,Germany,87,World,384,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",14462734000,kg,7634774181.0,import
+2021,Germany,87,World,384,Colombia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",446022500,kg,210767777.5,import
+2021,Germany,87,World,384,Libya,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",6902873000,kg,3584802865.0,import
+2021,Germany,87,World,384,Algeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",564351000,kg,314842101.6,import
+2021,Germany,87,World,384,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",72252000,kg,38726049.8,import
+2021,Germany,87,World,384,Norway,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3938575000,kg,2092646425.0,import
+2021,Germany,87,World,384,Azerbaijan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1112368000,kg,608481595.9,import
+2021,Germany,87,World,384,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",19928000,kg,12374144.73,import
+2021,Germany,87,World,384,Canada,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",240978637,kg,102419118.2,import
+2021,Germany,87,World,384,Switzerland,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3808000,kg,2540445.573,import
+2021,Germany,87,World,384,Brazil,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",139827500,kg,65303866.0,import
+2022,Germany,87,Iraq,171,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",35165100,kg,24294944.4,import
+2022,Germany,87,Russian Federation,301,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",21377740000,kg,12295692941.0,import
+2022,Germany,87,Poland,282,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,173314000,kg,97121890.69,import
+2022,Germany,87,Cameroon,67,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,155306000,kg,112612996.0,import
+2022,Germany,87,Nigeria,256,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,883241000,kg,701212420.1,import
+2022,Germany,87,Netherlands,260,World,Petroleum oils and oils obtained from bituminous minerals; crude,64505900,kg,45799323.47,import
+2022,Germany,87,Tunisia,354,World,Petroleum oils and oils obtained from bituminous minerals; crude,159492500,kg,139967956.0,import
+2022,Germany,87,World,384,Ghana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",121630000,kg,95167884.73,import
+2022,Germany,87,World,384,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1302780000,kg,1036525357.0,import
+2022,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,87409606250,kg,63490363717.0,import
+2022,Germany,87,World,384,Libya,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5017626000,kg,3842940234.0,import
+2022,Germany,87,Egypt,105,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",221090000,kg,186606455.3,import
+2022,Germany,87,Canada,54,Canada,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",700934000,kg,498629592.3,import
+2022,Germany,87,Saudi Arabia,304,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,156493000,kg,102847943.0,import
+2022,Germany,87,Tunisia,354,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,114761000,kg,99872073.47,import
+2022,Germany,87,United Kingdom,124,Libya,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",162456000,kg,160156077.2,import
+2022,Germany,87,Norway,262,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,248113000,kg,199203217.6,import
+2022,Germany,87,Italy,179,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,3888450,kg,2392696.103,import
+2022,Germany,87,Norway,262,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",4490090000,kg,3476782894.0,import
+2022,Germany,87,Iraq,171,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3351583100,kg,2309572666.0,import
+2022,Germany,87,World,384,France,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5119020,kg,3378423.204,import
+2022,Germany,87,World,384,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,137928000,kg,118172108.3,import
+2022,Germany,87,World,384,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",10003029000,kg,8161234629.0,import
+2022,Germany,87,United Kingdom,124,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3030761880,kg,2351834801.0,import
+2022,Germany,87,United Arab Emirates,2,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",62017700,kg,42395344.18,import
+2022,Germany,87,Iraq,171,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,1177074000,kg,812376853.3,import
+2022,Germany,87,Saudi Arabia,304,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,1049916800,kg,789403429.3,import
+2022,Germany,87,United Arab Emirates,2,United Arab Emirates,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",130721000,kg,110293486.6,import
+2022,Germany,87,Libya,218,World,Petroleum oils and oils obtained from bituminous minerals; crude,4964793900,kg,3761528042.0,import
+2022,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,8678054380,kg,6784999621.0,import
+2022,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,12142165000,kg,9848942911.0,import
+2022,Germany,87,Canada,54,World,Petroleum oils and oils obtained from bituminous minerals; crude,700934000,kg,498629592.3,import
+2022,Germany,87,Cameroon,67,World,Petroleum oils and oils obtained from bituminous minerals; crude,155306000,kg,112612996.0,import
+2022,Germany,87,Azerbaijan,23,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2242019000,kg,1791864002.0,import
+2022,Germany,87,Turkmenistan,352,World,Petroleum oils and oils obtained from bituminous minerals; crude,34885000,kg,29022281.34,import
+2022,Germany,87,France,118,World,Petroleum oils and oils obtained from bituminous minerals; crude,5119020,kg,3378423.204,import
+2022,Germany,87,World,384,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",462548000,kg,353071311.4,import
+2022,Germany,87,Norway,262,Norway,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7455803000,kg,5679821148.0,import
+2022,Germany,87,Libya,218,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,4855170000,kg,3682784156.0,import
+2022,Germany,87,United Kingdom,124,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5341522000,kg,4162016055.0,import
+2022,Germany,87,Brazil,46,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,64357700,kg,55670546.29,import
+2022,Germany,87,Guyana,146,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,137262000,kg,95081433.45,import
+2022,Germany,87,Netherlands,260,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",64505900,kg,45799323.47,import
+2022,Germany,87,Denmark,90,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",168582000,kg,128587314.3,import
+2022,Germany,87,Norway,262,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",12194006000,kg,9355807259.0,import
+2022,Germany,87,Algeria,95,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1332839100,kg,1104367209.0,import
+2022,Germany,87,Egypt,105,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",221090000,kg,186606455.3,import
+2022,Germany,87,Nigeria,256,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2883563000,kg,2217368372.0,import
+2022,Germany,87,World,384,Gabon,Petroleum oils and oils obtained from bituminous minerals; crude,136102000,kg,103754156.6,import
+2022,Germany,87,World,384,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,5589635000,kg,4361219272.0,import
+2022,Germany,87,World,384,Türkiye,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1945457000,kg,1440698066.0,import
+2022,Germany,87,Denmark,90,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",168582000,kg,128587314.3,import
+2022,Germany,87,France,118,France,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5119020,kg,3378423.204,import
+2022,Germany,87,Gabon,122,Gabon,Petroleum oils and oils obtained from bituminous minerals; crude,136102000,kg,103754156.6,import
+2022,Germany,87,United Kingdom,124,Canada,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",48062900,kg,33605695.18,import
+2022,Germany,87,Equatorial Guinea,137,World,Petroleum oils and oils obtained from bituminous minerals; crude,456419000,kg,351776889.8,import
+2022,Germany,87,World,384,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1601310000,kg,1272794844.0,import
+2022,Germany,87,Equatorial Guinea,137,Equatorial Guinea,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",302088000,kg,237906637.8,import
+2022,Germany,87,Ghana,129,Ghana,Petroleum oils and oils obtained from bituminous minerals; crude,121630000,kg,95167884.73,import
+2022,Germany,87,Iraq,171,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,519324000,kg,343602756.6,import
+2022,Germany,87,Ghana,129,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,62316400,kg,55316534.86,import
+2022,Germany,87,Kazakhstan,196,World,Petroleum oils and oils obtained from bituminous minerals; crude,8511526000,kg,6690085878.0,import
+2022,Germany,87,United Arab Emirates,2,World,Petroleum oils and oils obtained from bituminous minerals; crude,311473700,kg,254811036.9,import
+2022,Germany,87,Italy,179,World,Petroleum oils and oils obtained from bituminous minerals; crude,31947750,kg,14069636.02,import
+2022,Germany,87,World,384,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,7659500600,kg,5842771606.0,import
+2022,Germany,87,World,384,Equatorial Guinea,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",302088000,kg,237906637.8,import
+2022,Germany,87,World,384,Kazakhstan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5304040000,kg,4141288483.0,import
+2022,Germany,87,World,384,Trinidad and Tobago,Petroleum oils and oils obtained from bituminous minerals; crude,156052000,kg,128288399.6,import
+2022,Germany,87,Guyana,146,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1302780000,kg,1036525357.0,import
+2022,Germany,87,Algeria,95,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1216212000,kg,1026479187.0,import
+2022,Germany,87,Trinidad and Tobago,359,Trinidad and Tobago,Petroleum oils and oils obtained from bituminous minerals; crude,156052000,kg,128288399.6,import
+2022,Germany,87,Nigeria,256,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,128706000,kg,104224221.4,import
+2022,Germany,87,Azerbaijan,23,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1473636000,kg,1163542790.0,import
+2022,Germany,87,USA,371,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2198960000,kg,1727130199.0,import
+2022,Germany,87,Russian Federation,301,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1424230000,kg,931249690.9,import
+2022,Germany,87,Trinidad and Tobago,359,World,Petroleum oils and oils obtained from bituminous minerals; crude,156052000,kg,128288399.6,import
+2022,Germany,87,Russian Federation,301,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",22801970000,kg,13226942632.0,import
+2022,Germany,87,World,384,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,28059300,kg,11676939.92,import
+2022,Germany,87,World,384,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,14547405530,kg,11042812957.0,import
+2022,Germany,87,Algeria,95,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,79977100,kg,52992047.63,import
+2022,Germany,87,United Arab Emirates,2,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,118735000,kg,102122206.1,import
+2022,Germany,87,Azerbaijan,23,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,768383000,kg,628321212.5,import
+2022,Germany,87,Italy,179,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,28059300,kg,11676939.92,import
+2022,Germany,87,Kazakhstan,196,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",276416000,kg,225795766.4,import
+2022,Germany,87,World,384,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,173314000,kg,97121890.69,import
+2022,Germany,87,World,384,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1216212000,kg,1026479187.0,import
+2022,Germany,87,World,384,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,1763170000,kg,1326368266.0,import
+2022,Germany,87,Tunisia,354,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,44731500,kg,40095882.54,import
+2022,Germany,87,Kazakhstan,196,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2931070000,kg,2323001628.0,import
+2022,Germany,87,Brazil,46,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,137928000,kg,118172108.3,import
+2022,Germany,87,United Kingdom,124,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,95251600,kg,77386992.75,import
+2022,Germany,87,USA,371,USA,Petroleum oils and oils obtained from bituminous minerals; crude,9943205000,kg,8121812713.0,import
+2022,Germany,87,Gabon,122,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",136102000,kg,103754156.6,import
+2022,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,173314000,kg,97121890.69,import
+2022,Germany,87,World,384,Angola,Petroleum oils and oils obtained from bituminous minerals; crude,127436000,kg,114992559.9,import
+2022,Germany,87,World,384,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,1620020000,kg,1129298112.0,import
+2022,Germany,87,Angola,11,Angola,Petroleum oils and oils obtained from bituminous minerals; crude,127436000,kg,114992559.9,import
+2022,Germany,87,Libya,218,USA,Petroleum oils and oils obtained from bituminous minerals; crude,59824000,kg,39421916.46,import
+2022,Germany,87,Ghana,129,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",183946400,kg,150484419.6,import
+2022,Germany,87,Nigeria,256,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,108446000,kg,85563464.96,import
+2022,Germany,87,World,384,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,24591136000,kg,14854063278.0,import
+2022,Germany,87,Libya,218,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",49799900,kg,39321968.69,import
+2022,Germany,87,Turkmenistan,352,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",34885000,kg,29022281.34,import
+2022,Germany,87,Algeria,95,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,36650000,kg,24895974.76,import
+2022,Germany,87,Brazil,46,World,Petroleum oils and oils obtained from bituminous minerals; crude,202285700,kg,173842654.6,import
+2022,Germany,87,World,384,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,748996900,kg,532235287.5,import
+2022,Germany,87,World,384,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",194738100,kg,152864121.1,import
+2022,Germany,87,Kazakhstan,196,Kazakhstan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5304040000,kg,4141288483.0,import
+2022,Germany,87,Saudi Arabia,304,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,770434000,kg,568486131.9,import
+2022,Germany,87,Angola,11,World,Petroleum oils and oils obtained from bituminous minerals; crude,127436000,kg,114992559.9,import
+2022,Germany,87,World,384,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1473636000,kg,1163542790.0,import
+2022,Germany,87,Iraq,171,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,1620020000,kg,1129298112.0,import
+2022,Germany,87,World,384,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,1049916800,kg,789403429.3,import
+2022,Germany,87,Chad,341,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1601310000,kg,1272794844.0,import
+2022,Germany,87,Chad,341,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1601310000,kg,1272794844.0,import
+2022,Germany,87,Saudi Arabia,304,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1976843800,kg,1460737504.0,import
+2022,Germany,87,Guyana,146,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1440042000,kg,1131606790.0,import
+2022,Germany,87,World,384,United Arab Emirates,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",130721000,kg,110293486.6,import
+2022,Germany,87,Nigeria,256,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,1763170000,kg,1326368266.0,import
+2022,Germany,87,Equatorial Guinea,137,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,154331000,kg,113870252.0,import
+2023,Germany,87,Mexico,248,Mexico,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",452335000,kg,284515529.4,import
+2023,Germany,87,Mexico,248,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",151945000,kg,97223760.8,import
+2023,Germany,87,Denmark,90,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,74142000,kg,47961431.54,import
+2023,Germany,87,Algeria,95,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",91364700,kg,66032065.88,import
+2023,Germany,87,Cameroon,67,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,311244000,kg,191004170.8,import
+2023,Germany,87,Malaysia,249,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,2549560,kg,1589099.201,import
+2023,Germany,87,Iraq,171,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1121430000,kg,656077089.3,import
+2023,Germany,87,Algeria,95,World,Petroleum oils and oils obtained from bituminous minerals; crude,1620319700,kg,1083124996.0,import
+2023,Germany,87,Nigeria,256,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2842987000,kg,1911703682.0,import
+2023,Germany,87,Mexico,248,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",604280000,kg,381739290.2,import
+2023,Germany,87,Qatar,297,World,Petroleum oils and oils obtained from bituminous minerals; crude,73137600,kg,51498672.92,import
+2023,Germany,87,Azerbaijan,23,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1203694000,kg,818092617.4,import
+2023,Germany,87,Brazil,46,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",572607900,kg,345526641.4,import
+2023,Germany,87,Guyana,146,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2125749100,kg,1324365015.0,import
+2023,Germany,87,World,384,Azerbaijan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",794996000,kg,533200497.7,import
+2023,Germany,87,World,384,Italy,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",85677200,kg,38545052.68,import
+2023,Germany,87,Angola,11,Angola,Petroleum oils and oils obtained from bituminous minerals; crude,156140000,kg,110608933.7,import
+2023,Germany,87,Libya,218,Libya,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",8065580000,kg,5266469259.0,import
+2023,Germany,87,Algeria,95,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,90463000,kg,60977920.95,import
+2023,Germany,87,Azerbaijan,23,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,794996000,kg,533200497.7,import
+2023,Germany,87,Brazil,46,Brazil,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",334214000,kg,203529790.6,import
+2023,Germany,87,Iraq,171,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,124232000,kg,63625865.75,import
+2023,Germany,87,Brazil,46,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",80207900,kg,45984607.8,import
+2023,Germany,87,USA,371,USA,Petroleum oils and oils obtained from bituminous minerals; crude,10133971685,kg,6763635527.0,import
+2023,Germany,87,Norway,262,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,2813902000,kg,1758096119.0,import
+2023,Germany,87,Gabon,122,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1425750,kg,849426.3,import
+2023,Germany,87,Saudi Arabia,304,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",585891000,kg,349126900.3,import
+2023,Germany,87,Kazakhstan,196,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,354448000,kg,232169656.6,import
+2023,Germany,87,USA,371,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3079360000,kg,1995665016.0,import
+2023,Germany,87,Angola,11,World,Petroleum oils and oils obtained from bituminous minerals; crude,164365610,kg,115531851.6,import
+2023,Germany,87,Equatorial Guinea,137,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",15880000,kg,9800611.152,import
+2023,Germany,87,Libya,218,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",8065580000,kg,5266469259.0,import
+2023,Germany,87,World,384,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,10433983000,kg,6464212671.0,import
+2023,Germany,87,World,384,Congo,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",61202100,kg,35625366.75,import
+2023,Germany,87,Saudi Arabia,304,Saudi Arabia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1920712000,kg,1249843642.0,import
+2023,Germany,87,Chad,341,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1231140000,kg,745551978.6,import
+2023,Germany,87,Guyana,146,Guyana,Petroleum oils and oils obtained from bituminous minerals; crude,930668000,kg,578386296.6,import
+2023,Germany,87,Nigeria,256,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",22657000,kg,14880075.14,import
+2023,Germany,87,Côte d'Ivoire,64,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,18307400,kg,10113675.95,import
+2023,Germany,87,Canada,54,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,11665400,kg,6586418.503,import
+2023,Germany,87,Kazakhstan,196,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",8526206000,kg,5347311661.0,import
+2023,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,13387173685,kg,8867253290.0,import
+2023,Germany,87,Saudi Arabia,304,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2756942000,kg,1742423440.0,import
+2023,Germany,87,World,384,Canada,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1095115000,kg,609344773.0,import
+2023,Germany,87,World,384,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,1296718700,kg,788520006.2,import
+2023,Germany,87,Netherlands,260,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",95138400,kg,59787725.2,import
+2023,Germany,87,Norway,262,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,244519000,kg,167996843.6,import
+2023,Germany,87,Azerbaijan,23,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,408698000,kg,284892119.7,import
+2023,Germany,87,Kazakhstan,196,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1760558000,kg,1107036989.0,import
+2023,Germany,87,Iraq,171,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,1723502000,kg,986588441.4,import
+2023,Germany,87,USA,371,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,173842000,kg,107952746.2,import
+2023,Germany,87,Norway,262,World,Petroleum oils and oils obtained from bituminous minerals; crude,13492404000,kg,8390305633.0,import
+2023,Germany,87,Oman,270,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",487328000,kg,322388846.1,import
+2023,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,175068000,kg,92227291.94,import
+2023,Germany,87,World,384,France,Petroleum oils and oils obtained from bituminous minerals; crude,3613819,kg,2145549.574,import
+2023,Germany,87,World,384,Angola,Petroleum oils and oils obtained from bituminous minerals; crude,156140000,kg,110608933.7,import
+2023,Germany,87,World,384,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",930668000,kg,578386296.6,import
+2023,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,72957545924,kg,46550446842.0,import
+2023,Germany,87,World,384,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,1723502000,kg,986588441.4,import
+2023,Germany,87,World,384,United Arab Emirates,Petroleum oils and oils obtained from bituminous minerals; crude,2111690000,kg,1466960622.0,import
+2023,Germany,87,World,384,Mexico,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",452335000,kg,284515529.4,import
+2023,Germany,87,World,384,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",258431000,kg,164919226.9,import
+2023,Germany,87,Guyana,146,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",526621000,kg,346513051.5,import
+2023,Germany,87,United Arab Emirates,2,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2111690000,kg,1466960622.0,import
+2023,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,7920620000,kg,5046506922.0,import
+2023,Germany,87,World,384,Algeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1438492000,kg,956115009.0,import
+2023,Germany,87,World,384,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",12415812820,kg,7785192707.0,import
+2023,Germany,87,Russian Federation,301,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",115395000,kg,44224935.79,import
+2023,Germany,87,Tunisia,354,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,167968000,kg,103941306.0,import
+2023,Germany,87,Guyana,146,Gibraltar,Petroleum oils and oils obtained from bituminous minerals; crude,81619100,kg,48579130.9,import
+2023,Germany,87,Saudi Arabia,304,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",250339000,kg,143452897.9,import
+2023,Germany,87,Italy,179,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,85677200,kg,38545052.68,import
+2023,Germany,87,Côte d'Ivoire,64,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",18307400,kg,10113675.95,import
+2023,Germany,87,Russian Federation,301,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",115395000,kg,44224935.79,import
+2023,Germany,87,World,384,South Sudan,Petroleum oils and oils obtained from bituminous minerals; crude,81117000,kg,47969761.47,import
+2023,Germany,87,World,384,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,8065580000,kg,5266469259.0,import
+2023,Germany,87,World,384,Egypt,Petroleum oils and oils obtained from bituminous minerals; crude,752526000,kg,464139062.2,import
+2023,Germany,87,World,384,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",10285916685,kg,6860859288.0,import
+2023,Germany,87,World,384,Kazakhstan,Petroleum oils and oils obtained from bituminous minerals; crude,6411200000,kg,4008105016.0,import
+2023,Germany,87,World,384,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,1875953000,kg,1151261924.0,import
+2023,Germany,87,Canada,54,Canada,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1095115000,kg,609344773.0,import
+2023,Germany,87,United Arab Emirates,2,United Arab Emirates,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2111690000,kg,1466960622.0,import
+2023,Germany,87,Congo,58,Congo,Petroleum oils and oils obtained from bituminous minerals; crude,61202100,kg,35625366.75,import
+2023,Germany,87,Malaysia,249,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2549560,kg,1589099.201,import
+2023,Germany,87,Gabon,122,World,Petroleum oils and oils obtained from bituminous minerals; crude,1425750,kg,849426.3,import
+2023,Germany,87,World,384,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,175068000,kg,92227291.94,import
+2023,Germany,87,World,384,Oman,Petroleum oils and oils obtained from bituminous minerals; crude,487328000,kg,322388846.1,import
+2023,Germany,87,Egypt,105,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",502187000,kg,320686164.3,import
+2023,Germany,87,Italy,179,World,Petroleum oils and oils obtained from bituminous minerals; crude,85677200,kg,38545052.68,import
+2023,Germany,87,World,384,Nigeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2035813000,kg,1383776003.0,import
+2023,Germany,87,World,384,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,6571326900,kg,4237292608.0,import
+2023,Germany,87,Egypt,105,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",502187000,kg,320686164.3,import
+2023,Germany,87,Equatorial Guinea,137,Equatorial Guinea,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",14728000,kg,9107876.983,import
+2023,Germany,87,Norway,262,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,10433983000,kg,6464212671.0,import
+2023,Germany,87,Brazil,46,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",158186000,kg,96012243.04,import
+2023,Germany,87,Iraq,171,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2969164000,kg,1706291396.0,import
+2023,Germany,87,France,118,World,Petroleum oils and oils obtained from bituminous minerals; crude,3613819,kg,2145549.574,import
+2023,Germany,87,Netherlands,260,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",95138400,kg,59787725.2,import
+2023,Germany,87,Guyana,146,South Sudan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",81117000,kg,47969761.47,import
+2023,Germany,87,Angola,11,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",8225610,kg,4922917.962,import
+2023,Germany,87,Nigeria,256,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,784517000,kg,513047603.8,import
+2023,Germany,87,United Kingdom,124,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2397140000,kg,1492541638.0,import
+2023,Germany,87,Cameroon,67,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",376822700,kg,233972198.3,import
+2023,Germany,87,World,384,Gibraltar,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",81619100,kg,48579130.9,import
+2023,Germany,87,Guyana,146,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,505724000,kg,302916774.8,import
+2023,Germany,87,Equatorial Guinea,137,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1152000,kg,692734.169,import
+2023,Germany,87,Chad,341,World,Petroleum oils and oils obtained from bituminous minerals; crude,1231140000,kg,745551978.6,import
+2023,Germany,87,Tunisia,354,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",167968000,kg,103941306.0,import
+2023,Germany,87,World,384,Saudi Arabia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1920712000,kg,1249843642.0,import
+2023,Germany,87,World,384,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,334214000,kg,203529790.6,import
+2023,Germany,87,World,384,Qatar,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",73137600,kg,51498672.92,import
+2023,Germany,87,Algeria,95,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1438492000,kg,956115009.0,import
+2023,Germany,87,Kazakhstan,196,Kazakhstan,Petroleum oils and oils obtained from bituminous minerals; crude,6411200000,kg,4008105016.0,import
+2023,Germany,87,Oman,270,Oman,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",487328000,kg,322388846.1,import
+2023,Germany,87,Qatar,297,Qatar,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",73137600,kg,51498672.92,import
+2023,Germany,87,Canada,54,World,Petroleum oils and oils obtained from bituminous minerals; crude,1106780400,kg,615931191.5,import
+2023,Germany,87,World,384,Türkiye,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",532930000,kg,348517985.5,import
+2023,Germany,87,World,384,Equatorial Guinea,Petroleum oils and oils obtained from bituminous minerals; crude,14728000,kg,9107876.983,import
+2023,Germany,87,Cameroon,67,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",65578700,kg,42968027.52,import
+2023,Germany,87,Nigeria,256,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,2035813000,kg,1383776003.0,import
+2023,Germany,87,United Kingdom,124,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5523480000,kg,3553965284.0,import
+2023,Germany,87,Poland,282,Poland,Petroleum oils and oils obtained from bituminous minerals; crude,175068000,kg,92227291.94,import
+2023,Germany,87,France,118,France,Petroleum oils and oils obtained from bituminous minerals; crude,3613819,kg,2145549.574,import
+2023,Germany,87,Congo,58,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",61202100,kg,35625366.75,import
+2023,Germany,87,Denmark,90,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",74142000,kg,47961431.54,import
+2024,Germany,87,Algeria,95,Algeria,Petroleum oils and oils obtained from bituminous minerals; crude,1199339000,kg,756876375.8,import
+2024,Germany,87,Azerbaijan,23,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,15762000,kg,9103715.85,import
+2024,Germany,87,"Other Asia, nes",273,"Other Asia, nes","Oils; petroleum oils and oils obtained from bituminous minerals, crude",46,kg,1169.428,import
+2024,Germany,87,United Arab Emirates,2,United Arab Emirates,Petroleum oils and oils obtained from bituminous minerals; crude,985820000,kg,599943233.2,import
+2024,Germany,87,"Other Asia, nes",273,USA,Petroleum oils and oils obtained from bituminous minerals; crude,201,kg,149.846,import
+2024,Germany,87,USA,371,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3866700000,kg,2371466866.0,import
+2024,Germany,87,Norway,262,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2738730000,kg,1602430635.0,import
+2024,Germany,87,France,118,World,Petroleum oils and oils obtained from bituminous minerals; crude,2678350,kg,1493831.738,import
+2024,Germany,87,Saudi Arabia,304,World,Petroleum oils and oils obtained from bituminous minerals; crude,1719019000,kg,1060425069.0,import
+2024,Germany,87,United Arab Emirates,2,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",987414650,kg,600854139.4,import
+2024,Germany,87,Gabon,122,World,Petroleum oils and oils obtained from bituminous minerals; crude,79739600,kg,44625307.73,import
+2024,Germany,87,Canada,54,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",906441974,kg,486389192.1,import
+2024,Germany,87,World,384,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,115053002,kg,47822270.62,import
+2024,Germany,87,World,384,Brazil,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",194107000,kg,118424380.7,import
+2024,Germany,87,World,384,Poland,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",190949058,kg,86883099.08,import
+2024,Germany,87,World,384,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2190987000,kg,1242390744.0,import
+2024,Germany,87,World,384,India,Petroleum oils and oils obtained from bituminous minerals; crude,6,kg,50.298,import
+2024,Germany,87,Guyana,146,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1093240000,kg,666689702.0,import
+2024,Germany,87,United Kingdom,124,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",5943960000,kg,3562008246.0,import
+2024,Germany,87,Mexico,248,Mexico,Petroleum oils and oils obtained from bituminous minerals; crude,1056100000,kg,572410854.1,import
+2024,Germany,87,Chad,341,Cameroon,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1750370000,kg,983332283.7,import
+2024,Germany,87,Nigeria,256,Nigeria,Petroleum oils and oils obtained from bituminous minerals; crude,2019999230,kg,1275876814.0,import
+2024,Germany,87,Azerbaijan,23,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",81112000,kg,47521685.58,import
+2024,Germany,87,Algeria,95,Tunisia,Petroleum oils and oils obtained from bituminous minerals; crude,148808000,kg,96753213.94,import
+2024,Germany,87,"Other Asia, nes",273,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",247,kg,1319.275,import
+2024,Germany,87,Tunisia,354,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",59434000,kg,39477923.58,import
+2024,Germany,87,Poland,282,World,Petroleum oils and oils obtained from bituminous minerals; crude,190949062,kg,86883232.16,import
+2024,Germany,87,Denmark,90,World,Petroleum oils and oils obtained from bituminous minerals; crude,271923000,kg,156675189.2,import
+2024,Germany,87,Senegal,319,World,Petroleum oils and oils obtained from bituminous minerals; crude,95999800,kg,51601709.49,import
+2024,Germany,87,Italy,179,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",115053002,kg,47822270.62,import
+2024,Germany,87,World,384,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,828768000,kg,447662697.6,import
+2024,Germany,87,World,384,World,Petroleum oils and oils obtained from bituminous minerals; crude,78536955115,kg,46904080351.0,import
+2024,Germany,87,World,384,Senegal,Petroleum oils and oils obtained from bituminous minerals; crude,30067000,kg,16294508.64,import
+2024,Germany,87,World,384,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",230062000,kg,149866959.9,import
+2024,Germany,87,World,384,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,7248638000,kg,4353072066.0,import
+2024,Germany,87,World,384,USA,Petroleum oils and oils obtained from bituminous minerals; crude,10728072560,kg,6682023710.0,import
+2024,Germany,87,World,384,France,Petroleum oils and oils obtained from bituminous minerals; crude,2678350,kg,1493831.738,import
+2024,Germany,87,Canada,54,India,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",6,kg,50.298,import
+2024,Germany,87,World,384,Czechia,Petroleum oils and oils obtained from bituminous minerals; crude,4,kg,133.08,import
+2024,Germany,87,Kazakhstan,196,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2594005000,kg,1576961484.0,import
+2024,Germany,87,Angola,11,Angola,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",164245600,kg,92369833.36,import
+2024,Germany,87,Cameroon,67,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,94517300,kg,46745620.97,import
+2024,Germany,87,Norway,262,United Kingdom,Petroleum oils and oils obtained from bituminous minerals; crude,176790000,kg,106408882.2,import
+2024,Germany,87,United Kingdom,124,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,2081400000,kg,1231850318.0,import
+2024,Germany,87,Libya,218,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",54105100,kg,32930392.96,import
+2024,Germany,87,Saudi Arabia,304,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",234327000,kg,135121815.1,import
+2024,Germany,87,Netherlands,260,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,97630600,kg,59040851.8,import
+2024,Germany,87,Norway,262,World,Petroleum oils and oils obtained from bituminous minerals; crude,15260080000,kg,8881148216.0,import
+2024,Germany,87,Libya,218,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7396755100,kg,4548230427.0,import
+2024,Germany,87,World,384,Ghana,Petroleum oils and oils obtained from bituminous minerals; crude,81895000,kg,47933130.55,import
+2024,Germany,87,Equatorial Guinea,137,Equatorial Guinea,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",50627000,kg,29977917.12,import
+2024,Germany,87,Canada,54,Canada,Petroleum oils and oils obtained from bituminous minerals; crude,828768000,kg,447662697.6,import
+2024,Germany,87,Russian Federation,301,Russian Federation,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",21245000,kg,7236964.261,import
+2024,Germany,87,Ghana,129,Ghana,Petroleum oils and oils obtained from bituminous minerals; crude,81895000,kg,47933130.55,import
+2024,Germany,87,Libya,218,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,7342650000,kg,4515300034.0,import
+2024,Germany,87,United Kingdom,124,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",178725000,kg,111471234.5,import
+2024,Germany,87,Mexico,248,USA,Petroleum oils and oils obtained from bituminous minerals; crude,160736000,kg,92430054.73,import
+2024,Germany,87,Denmark,90,United Kingdom,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",34648000,kg,17965236.35,import
+2024,Germany,87,Italy,179,Italy,Petroleum oils and oils obtained from bituminous minerals; crude,115053002,kg,47822270.62,import
+2024,Germany,87,Algeria,95,World,Petroleum oils and oils obtained from bituminous minerals; crude,1387647000,kg,877281862.7,import
+2024,Germany,87,Chad,341,World,Petroleum oils and oils obtained from bituminous minerals; crude,1750370000,kg,983332283.7,import
+2024,Germany,87,Brazil,46,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",518371000,kg,308609518.5,import
+2024,Germany,87,World,384,Spain,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",500,kg,1467.025,import
+2024,Germany,87,World,384,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",758395000,kg,440062827.0,import
+2024,Germany,87,World,384,Nigeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2019999230,kg,1275876814.0,import
+2024,Germany,87,World,384,Cameroon,Petroleum oils and oils obtained from bituminous minerals; crude,1844887300,kg,1030077905.0,import
+2024,Germany,87,World,384,Mexico,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1056100000,kg,572410854.1,import
+2024,Germany,87,Saudi Arabia,304,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",245792000,kg,136918527.8,import
+2024,Germany,87,Côte d'Ivoire,64,Côte d'Ivoire,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",164964000,kg,99856221.21,import
+2024,Germany,87,USA,371,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",21820000,kg,13635822.38,import
+2024,Germany,87,Algeria,95,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,12209000,kg,7862515.248,import
+2024,Germany,87,Senegal,319,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",65932800,kg,35307200.85,import
+2024,Germany,87,Kazakhstan,196,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",423997000,kg,264687339.1,import
+2024,Germany,87,Canada,54,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",77672600,kg,38725424.63,import
+2024,Germany,87,Brazil,46,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,324264000,kg,190185137.8,import
+2024,Germany,87,Egypt,105,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",512603000,kg,303144299.2,import
+2024,Germany,87,Ghana,129,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",81895000,kg,47933130.55,import
+2024,Germany,87,Angola,11,World,Petroleum oils and oils obtained from bituminous minerals; crude,195933300,kg,111050491.7,import
+2024,Germany,87,World,384,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",13259899850,kg,7844111581.0,import
+2024,Germany,87,World,384,United Arab Emirates,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",985820000,kg,599943233.2,import
+2024,Germany,87,World,384,Algeria,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1199339000,kg,756876375.8,import
+2024,Germany,87,Egypt,105,Egypt,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",512603000,kg,303144299.2,import
+2024,Germany,87,Brazil,46,Brazil,Petroleum oils and oils obtained from bituminous minerals; crude,194107000,kg,118424380.7,import
+2024,Germany,87,Tunisia,354,Tunisia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",59434000,kg,39477923.58,import
+2024,Germany,87,Guyana,146,Guyana,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2190987000,kg,1242390744.0,import
+2024,Germany,87,Angola,11,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,31687700,kg,18680658.34,import
+2024,Germany,87,Guyana,146,World,Petroleum oils and oils obtained from bituminous minerals; crude,4337417000,kg,2514868547.0,import
+2024,Germany,87,USA,371,World,Petroleum oils and oils obtained from bituminous minerals; crude,14277130000,kg,8863223948.0,import
+2024,Germany,87,Netherlands,260,World,Petroleum oils and oils obtained from bituminous minerals; crude,97630600,kg,59040851.8,import
+2024,Germany,87,World,384,Angola,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",164245600,kg,92369833.36,import
+2024,Germany,87,World,384,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,2256150000,kg,1261438493.0,import
+2024,Germany,87,World,384,Azerbaijan,Petroleum oils and oils obtained from bituminous minerals; crude,1068484000,kg,660115177.0,import
+2024,Germany,87,World,384,Côte d'Ivoire,Petroleum oils and oils obtained from bituminous minerals; crude,164964000,kg,99856221.21,import
+2024,Germany,87,World,384,Russian Federation,Petroleum oils and oils obtained from bituminous minerals; crude,2696362000,kg,1631720134.0,import
+2024,Germany,87,Azerbaijan,23,Türkiye,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",602663000,kg,381307718.1,import
+2024,Germany,87,Azerbaijan,23,Azerbaijan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1068484000,kg,660115177.0,import
+2024,Germany,87,Kazakhstan,196,Türkiye,Petroleum oils and oils obtained from bituminous minerals; crude,101398000,kg,62181046.06,import
+2024,Germany,87,Algeria,95,Libya,Petroleum oils and oils obtained from bituminous minerals; crude,27291000,kg,15789757.74,import
+2024,Germany,87,Iraq,171,Iraq,Petroleum oils and oils obtained from bituminous minerals; crude,2256150000,kg,1261438493.0,import
+2024,Germany,87,Spain,109,Spain,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",500,kg,1467.025,import
+2024,Germany,87,Canada,54,Norway,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",9,kg,8.383,import
+2024,Germany,87,Iraq,171,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",3305480000,kg,1828531750.0,import
+2024,Germany,87,Norway,262,Norway,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",12344560000,kg,7172308698.0,import
+2024,Germany,87,USA,371,USA,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",10388610000,kg,6478121260.0,import
+2024,Germany,87,United Kingdom,124,World,Petroleum oils and oils obtained from bituminous minerals; crude,8204085000,kg,4905329799.0,import
+2024,Germany,87,World,384,Gabon,Petroleum oils and oils obtained from bituminous minerals; crude,29280600,kg,16817144.68,import
+2024,Germany,87,World,384,Kazakhstan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7467900000,kg,4454179917.0,import
+2024,Germany,87,World,384,Libya,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7385703000,kg,4540193508.0,import
+2024,Germany,87,Senegal,319,Senegal,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",30067000,kg,16294508.64,import
+2024,Germany,87,France,118,France,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2678350,kg,1493831.738,import
+2024,Germany,87,Denmark,90,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",237275000,kg,138709952.9,import
+2024,Germany,87,Cameroon,67,World,Petroleum oils and oils obtained from bituminous minerals; crude,402035300,kg,223891041.0,import
+2024,Germany,87,Spain,109,World,Petroleum oils and oils obtained from bituminous minerals; crude,500,kg,1467.025,import
+2024,Germany,87,World,384,Saudi Arabia,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",1238900000,kg,788384725.9,import
+2024,Germany,87,World,384,Norway,Petroleum oils and oils obtained from bituminous minerals; crude,12344560009,kg,7172308707.0,import
+2024,Germany,87,Kazakhstan,196,Kazakhstan,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",7467900000,kg,4454179917.0,import
+2024,Germany,87,Nigeria,256,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",430298000,kg,266777173.8,import
+2024,Germany,87,Cameroon,67,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",307518000,kg,177145420.0,import
+2024,Germany,87,Nigeria,256,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",2450297230,kg,1542653988.0,import
+2024,Germany,87,Côte d'Ivoire,64,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",216321400,kg,129876153.9,import
+2024,Germany,87,World,384,Equatorial Guinea,Petroleum oils and oils obtained from bituminous minerals; crude,50627000,kg,29977917.12,import
+2024,Germany,87,Poland,282,Czechia,Petroleum oils and oils obtained from bituminous minerals; crude,4,kg,133.08,import
+2024,Germany,87,Guyana,146,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1053190000,kg,605788100.8,import
+2024,Germany,87,Gabon,122,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",50459000,kg,27808163.05,import
+2024,Germany,87,Iraq,171,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1049330000,kg,567093257.4,import
+2024,Germany,87,United Arab Emirates,2,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,1594650,kg,910906.211,import
+2024,Germany,87,Canada,54,USA,Petroleum oils and oils obtained from bituminous minerals; crude,1359,kg,1011.199,import
+2024,Germany,87,Mexico,248,World,Petroleum oils and oils obtained from bituminous minerals; crude,1286814000,kg,706261826.4,import
+2024,Germany,87,Equatorial Guinea,137,World,Petroleum oils and oils obtained from bituminous minerals; crude,50871000,kg,30126518.37,import
+2024,Germany,87,World,384,"Other Asia, nes","Oils; petroleum oils and oils obtained from bituminous minerals, crude",46,kg,1169.428,import
+2024,Germany,87,Gabon,122,Gabon,Petroleum oils and oils obtained from bituminous minerals; crude,29280600,kg,16817144.68,import
+2024,Germany,87,World,384,Türkiye,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",704061000,kg,443488764.2,import
+2024,Germany,87,Saudi Arabia,304,Saudi Arabia,Petroleum oils and oils obtained from bituminous minerals; crude,1238900000,kg,788384725.9,import
+2024,Germany,87,Equatorial Guinea,137,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",244000,kg,148601.249,import
+2024,Germany,87,Côte d'Ivoire,64,Netherlands,Petroleum oils and oils obtained from bituminous minerals; crude,51357400,kg,30019932.72,import
+2024,Germany,87,Russian Federation,301,World,Petroleum oils and oils obtained from bituminous minerals; crude,21245000,kg,7236964.261,import
+2024,Germany,87,Mexico,248,Netherlands,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",69978000,kg,41420917.51,import
+2024,Germany,87,Kazakhstan,196,World,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",10587300000,kg,6358009786.0,import
+2024,Germany,87,Poland,282,Poland,"Oils; petroleum oils and oils obtained from bituminous minerals, crude",190949058,kg,86883099.08,import
+2024,Germany,87,Azerbaijan,23,World,Petroleum oils and oils obtained from bituminous minerals; crude,1768021000,kg,1098048297.0,import

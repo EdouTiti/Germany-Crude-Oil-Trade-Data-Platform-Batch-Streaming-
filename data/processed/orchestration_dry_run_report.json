@@ -1,0 +1,31 @@
+{
+  "status": "dry_run",
+  "started_at": "2026-04-21T17:13:26+00:00",
+  "finished_at": "2026-04-21T17:13:26+00:00",
+  "project_root": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-",
+  "dry_run": true,
+  "environment": {
+    "GCP_PROJECT_ID": "zoomcampde2026",
+    "BQ_DATASET": "Germany_oil_data",
+    "DBT_DATASET": "Germany_oil_analytics",
+    "BQ_LOCATION": "US",
+    "GOOGLE_APPLICATION_CREDENTIALS": "warehouse/bigquery/key.json"
+  },
+  "steps": [
+    {
+      "name": "dbt_debug",
+      "description": "Validate dbt profile and BigQuery service-account connection.",
+      "command": [
+        "dbt",
+        "debug",
+        "--profiles-dir",
+        "."
+      ],
+      "status": "dry_run",
+      "started_at": "2026-04-21T17:13:26+00:00",
+      "finished_at": "2026-04-21T17:13:26+00:00",
+      "duration_seconds": 0.0,
+      "returncode": null
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "spark_version": "4.1.1",
+  "outputs": {
+    "germany_crude_oil_imports_clean": {
+      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/germany_crude_oil_imports_clean",
+      "rows": 612,
+      "columns_count": 11,
+      "columns": [
+        "year",
+        "country",
+        "country_id",
+        "partner",
+        "partner_id",
+        "partner2",
+        "commodity_description",
+        "quantity",
+        "quantity_unit",
+        "trade_value",
+        "trade_direction"
+      ],
+      "missing_values": {
+        "year": 0,
+        "country": 0,
+        "country_id": 0,
+        "partner": 0,
+        "partner_id": 0,
+        "partner2": 0,
+        "commodity_description": 0,
+        "quantity": 0,
+        "quantity_unit": 6,
+        "trade_value": 0,
+        "trade_direction": 0
+      }
+    },
+    "global_oil_trade_clean": {
+      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/global_oil_trade_clean",
+      "rows": 20,
+      "columns_count": 25,
+      "columns": [
+        "date",
+        "importer_name",
+        "supplier_name",
+        "export_country",
+        "export_country_id",
+        "origin_country",
+        "origin_country_id",
+        "hs_code",
+        "product_description",
+        "package_unit_name",
+        "unit",
+        "total_packages",
+        "quantity",
+        "gross_weight_kg",
+        "net_weight_kg",
+        "currency",
+        "total_value_usd",
+        "delivery_terms",
+        "mode_of_transport",
+        "port_of_unloading",
+        "chapter",
+        "heading",
+        "sub_heading",
+        "month",
+        "year"
+      ],
+      "missing_values": {
+        "date": 0,
+        "importer_name": 0,
+        "supplier_name": 0,
+        "export_country": 0,
+        "export_country_id": 0,
+        "origin_country": 0,
+        "origin_country_id": 0,
+        "hs_code": 0,
+        "product_description": 0,
+        "package_unit_name": 0,
+        "unit": 0,
+        "total_packages": 0,
+        "quantity": 0,
+        "gross_weight_kg": 0,
+        "net_weight_kg": 0,
+        "currency": 0,
+        "total_value_usd": 0,
+        "delivery_terms": 0,
+        "mode_of_transport": 0,
+        "port_of_unloading": 0,
+        "chapter": 0,
+        "heading": 0,
+        "sub_heading": 0,
+        "month": 0,
+        "year": 0
+      }
+    },
+    "country_name_mapping_clean": {
+      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/country_name_mapping_clean",
+      "rows": 137,
+      "columns_count": 3,
+      "columns": [
+        "short_name",
+        "country_name",
+        "country_id"
+      ],
+      "missing_values": {
+        "short_name": 0,
+        "country_name": 0,
+        "country_id": 0
+      }
+    },
+    "wdi_fuel_trade_long": {
+      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/wdi_fuel_trade_long",
+      "rows": 19445,
+      "columns_count": 10,
+      "columns": [
+        "country_name",
+        "country_id",
+        "country_code",
+        "indicator_name",
+        "indicator_code",
+        "trade_direction",
+        "year",
+        "fuel_trade_percent",
+        "region",
+        "income_group"
+      ],
+      "missing_values": {
+        "country_name": 0,
+        "country_id": 0,
+        "country_code": 0,
+        "indicator_name": 0,
+        "indicator_code": 0,
+        "trade_direction": 0,
+        "year": 0,
+        "fuel_trade_percent": 0,
+        "region": 3977,
+        "income_group": 4127
+      }
+    },
+    "crude_oil_prices_clean": {
+      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/processed/spark/crude_oil_prices_clean",
+      "rows": 164,
+      "columns_count": 5,
+      "columns": [
+        "date",
+        "year",
+        "entity",
+        "entity_code",
+        "price_usd"
+      ],
+      "missing_values": {
+        "date": 0,
+        "year": 0,
+        "entity": 0,
+        "entity_code": 0,
+        "price_usd": 0
+      }
+    }
+  },
+  "pandas_comparison": {
+    "germany_crude_oil_imports_clean": {
+      "pandas_rows": 612,
+      "spark_rows": 612,
+      "row_count_match": true
+    },
+    "global_oil_trade_clean": {
+      "pandas_rows": 20,
+      "spark_rows": 20,
+      "row_count_match": true
+    },
+    "country_name_mapping_clean": {
+      "pandas_rows": 137,
+      "spark_rows": 137,
+      "row_count_match": true
+    },
+    "wdi_fuel_trade_long": {
+      "pandas_rows": 19445,
+      "spark_rows": 19445,
+      "row_count_match": true
+    },
+    "crude_oil_prices_clean": {
+      "pandas_rows": 164,
+      "spark_rows": 164,
+      "row_count_match": true
+    }
+  }
+}
