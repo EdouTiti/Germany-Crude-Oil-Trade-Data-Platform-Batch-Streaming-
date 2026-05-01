@@ -1,13 +1,45 @@
 # Germany Crude Oil Trade Data Platform
 
-This repository is being built step by step as a data platform for Germany and
-global crude oil and fuel trade data. Each step is documented here as a project
-report, so the work stays clear and reproducible.
+This repository contains the project code, dbt models, warehouse helpers, and
+documentation for a data platform focused on Germany's crude oil imports in the
+context of broader global oil trade and World Bank fuel-trade indicators.
+
+The problem this project solves is straightforward: the source data lives in
+separate raw CSV files, at different grains, with inconsistent country naming,
+mixed encodings, and limited analytical structure. The platform turns those raw
+files into cleaned datasets, warehouse tables, analytics models, and dashboard
+inputs that can support trade trend analysis, partner-country comparisons, and
+energy market storytelling.
 
 ## Project Goal
 
 Build a batch data platform that can load, validate, clean,
 transform, and analyze oil trade datasets from multiple raw sources.
+
+## Repository Structure
+
+```text
+src/                  Python ingestion, cleaning, batch, and orchestration code
+models/               dbt sources, staging models, marts, and fact models
+tests/                dbt singular data tests
+warehouse/bigquery/   BigQuery schemas and helper scripts
+data/raw/             Raw source CSV files
+data/processed/       Generated cleaned outputs and reports
+powerbi/              Power BI theme assets
+```
+
+## Quick Start
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 src/load_datasets.py
+python3 src/clean_datasets.py
+python3 src/spark_batch_pipeline.py
+python3 src/prepare_bigquery.py
+python3 src/orchestrate_pipeline.py --dry-run
+```
 
 The current project starts with three source groups:
 

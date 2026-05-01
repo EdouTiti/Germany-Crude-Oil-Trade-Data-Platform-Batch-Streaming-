@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: oil_trade_warehouse
+    database: "{{ env_var('GCP_PROJECT_ID', 'zoomcampde2026') }}"
+    schema: "{{ env_var('BQ_DATASET', 'Germany_oil_data') }}"
+    tables:
+      - name: germany_crude_oil_imports_clean
+      - name: global_oil_trade_clean
+      - name: country_name_mapping_clean
+      - name: wdi_fuel_trade_long
+      - name: crude_oil_prices_clean
+
+models:
+  - name: stg_germany_crude_oil_imports
+    columns:
+      - name: germany_import_record_id
+        tests: [not_null, unique]
+  - name: stg_global_oil_trade
+    columns:
+      - name: global_trade_record_id
+        tests: [not_null, unique]
+  - name: stg_wdi_fuel_trade
+    columns:
+      - name: wdi_fuel_trade_record_id
+        tests: [not_null, unique]
+  - name: dim_country
+    columns:
+      - name: country_id
+        tests: [not_null, unique]
+  - name: dim_date
+    columns:
+      - name: date
+        tests: [not_null, unique]
+  - name: dim_indicator
+    columns:
+      - name: indicator_id
+        tests: [not_null, unique]
+

@@ -1,0 +1,6 @@
+pandas>=2.2
+pyarrow>=15.0
+pyspark>=4.0
+dbt-core>=1.11
+dbt-bigquery>=1.11
+

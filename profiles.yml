@@ -1,0 +1,13 @@
+germany_crude_oil_trade:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: "{{ env_var('GCP_PROJECT_ID', 'zoomcampde2026') }}"
+      dataset: "{{ env_var('DBT_DATASET', 'Germany_oil_analytics') }}"
+      location: "{{ env_var('BQ_LOCATION', 'US') }}"
+      threads: 4
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS', 'warehouse/bigquery/key.json') }}"
+      timeout_seconds: 300
+

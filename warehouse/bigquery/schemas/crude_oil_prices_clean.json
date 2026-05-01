@@ -1,0 +1,27 @@
+[
+  {
+    "name": "date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "year",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "entity",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "entity_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "price_usd",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "year",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country_id",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "partner",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "partner_id",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "partner2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "commodity_description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "quantity",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "quantity_unit",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "trade_value",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "trade_direction",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

@@ -2,7 +2,6 @@ short_name,country_name,country_id
 ALBANIA,Albania,7
 ALGERIA,Algeria,95
 ANGOLA,Angola,11
-EQGUINEA,Equatorial Guinea,137
 ANGOLALL,Angola,11
 ANGOLOPEC,Angola,11
 ARGENTIN,Argentina,12
@@ -28,6 +27,7 @@ CHILE,Chile,66
 CHILEAPEC,Chile,66
 CHILEOLADE,Chile,66
 CHINA,China,69
+TAIPEI,Chinese Taipei,364
 COLOMBIA,Colombia,70
 COSTARIC,Costa Rica,76
 CROATIA,Croatia,153
@@ -36,16 +36,16 @@ CYPRUS,Cyprus,82
 CZECH,Czech Republic,85
 DENMARK,Denmark,90
 DOMINICANR,Dominican Republic,93
-ESWATINI,Eswatini,338
 ECUADALL,Ecuador,100
 ECUADOPEC,Ecuador,100
 ECUADOR,Ecuador,100
 EGYPT,Egypt (Arab Rep.),105
 ELSALVADOR,El Salvador,329
+EQGUINEA,Equatorial Guinea,137
 ESTONIA,Estonia,104
+ESWATINI,Eswatini,338
 FINLAND,Finland,115
 FRANCE,France,118
-FYROM,The former Yugoslav Rep. of Macedonia,232
 GABON,Gabon,122
 GAMBIA,Gambia,133
 GEORGIA,Georgia,127
@@ -61,9 +61,8 @@ HUNGARY,Hungary,157
 ICELAND,Iceland,176
 INDIA,India,168
 INDOAPEC,Indonesia,161
-SUDAN,Sudan,307
-INDOOPEC,Indonesia,161
 INDONESIA,Indonesia,161
+INDOOPEC,Indonesia,161
 IRAN,Iran (Islamic Rep.),172
 IRAQ,Iraq,171
 IRELAND,Ireland,166
@@ -75,8 +74,8 @@ KAZAKHSTAN,Kazakhstan,196
 KOREA,Korea,193
 KOREAPEC,Korea,193
 KUWAIT,Kuwait,194
-LATVIA,Latvia,216
 LATVIAESTAT,LATVIA,216
+LATVIA,Latvia,216
 LIBYA,Libya,218
 LITHUANIA,Lithuania,211
 LUXEMBOU,Luxembourg,214
@@ -86,18 +85,17 @@ MAURITIUS,Mauritius,245
 MEXAPEC,Mexico,248
 MEXICO,Mexico,248
 MEXOLADE,Mexico,248
-MOLDOVA,Republic of Moldova,224
 MOROCCO,Morocco,219
 MYANMAR,Myanmar,236
 MYANUNSD,Myanmar,236
 NEPAL,Nepal,264
 NETHLAND,Netherlands,260
+NZ,New Zealand,267
+NZAPEC,New Zealand,267
 NICARAGUA,Nicaragua,258
 NIGER,Niger,254
 NIGERIA,Nigeria,256
 NORWAY,Norway,262
-NZ,New Zealand,267
-NZAPEC,New Zealand,267
 OMAN,Oman,270
 PANAMA,Panama,274
 PAPUANG,Papua New Guinea,279
@@ -108,30 +106,32 @@ PHILIPP,Philippines,280
 POLAND,Poland,282
 PORTUGAL,Portugal,294
 QATAR,Qatar,297
+MOLDOVA,Republic of Moldova,224
 ROMANIA,Romania,299
 RUSSIA,Russian Federation,301
-SAFRICA,South Africa,389
 SARABIA,Saudi Arabia,304
 SINGAPOR,Singapore,311
 SLOVAKIA,Slovakia,314
 SLOVENIA,Slovenia,313
+SAFRICA,South Africa,389
 SPAIN,Spain,109
+SUDAN,Sudan,307
 SURINAME,Surinam,321
 SWEDEN,Sweden,309
 SWITLAND,Switzerland,59
 SYRIA,Syria (Arab Rep.),335
-TAIPEI,Chinese Taipei,364
 TAJIKISTAN,Tajikistan,347
 THAILAND,Thailand,345
+FYROM,The former Yugoslav Rep. of Macedonia,232
 TRINIDAD,Trinidad/Tobago,359
 TUNISIA,Tunisia,354
 TURKEY,Turkey,356
+UKRAINE,Ukraine,366
 UAE,United Arab Emirates,2
 UK,United Kingdom,124
-UKRAINE,Ukraine,366
-URUGUAY,Uruguay,373
 USA,United States of America,371
 USAAPEC,United States of America,371
+URUGUAY,Uruguay,373
 VENEZOPEC,Venezuela,376
 VENEZUELA,Venezuela,376
 VIETNAM,Vietnam,380

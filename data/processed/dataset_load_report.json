@@ -3,11 +3,9 @@
   "raw_dir": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw",
   "datasets": {
     "germany_crude_oil_imports": {
-      "name": "germany_crude_oil_imports",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/GCO_Imports.csv",
       "rows": 612,
-      "columns_count": 8,
-      "columns": [
+      "columns": 8,
+      "column_names": [
         "Year",
         "Country",
         "Partner",
@@ -36,15 +34,12 @@
         "Quantity": 0,
         "Quantity Unit": 6,
         "Trade Value": 0
-      },
-      "source_group": "germany_crude_oil"
+      }
     },
     "global_oil_trade": {
-      "name": "global_oil_trade",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/global_oil_trade.csv",
       "rows": 20,
-      "columns_count": 40,
-      "columns": [
+      "columns": 40,
+      "column_names": [
         "DATE",
         "IMPORTER NAME",
         "IMPORTER ADDRESS",
@@ -169,15 +164,12 @@
         "SUB HEADING": 0,
         "MONTH": 0,
         "YEAR": 0
-      },
-      "source_group": "global_trade_records"
+      }
     },
     "country_name_mapping": {
-      "name": "country_name_mapping",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/Country_Name.csv",
       "rows": 138,
-      "columns_count": 3,
-      "columns": [
+      "columns": 3,
+      "column_names": [
         "ShortName",
         "Name",
         "NewName"
@@ -191,15 +183,12 @@
         "ShortName": 0,
         "Name": 0,
         "NewName": 0
-      },
-      "source_group": "reference_data"
+      }
     },
     "fuel_imports_data": {
-      "name": "fuel_imports_data",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/import1.csv",
       "rows": 266,
-      "columns_count": 70,
-      "columns": [
+      "columns": 71,
+      "column_names": [
         "Country Name",
         "Country Code",
         "Indicator Name",
@@ -269,7 +258,8 @@
         "2022",
         "2023",
         "2024",
-        "2025"
+        "2025",
+        "Unnamed: 70"
       ],
       "dtypes": {
         "Country Name": "object",
@@ -341,7 +331,8 @@
         "2022": "float64",
         "2023": "float64",
         "2024": "float64",
-        "2025": "float64"
+        "2025": "float64",
+        "Unnamed: 70": "float64"
       },
       "missing_values": {
         "Country Name": 0,
@@ -413,69 +404,67 @@
         "2022": 64,
         "2023": 66,
         "2024": 100,
-        "2025": 266
-      },
-      "source_group": "world_bank_wdi"
+        "2025": 266,
+        "Unnamed: 70": 266
+      }
     },
     "fuel_imports_country_metadata": {
-      "name": "fuel_imports_country_metadata",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/import2.csv",
       "rows": 265,
-      "columns_count": 5,
-      "columns": [
+      "columns": 6,
+      "column_names": [
         "Country Code",
         "Region",
         "IncomeGroup",
         "SpecialNotes",
-        "TableName"
+        "TableName",
+        "Unnamed: 5"
       ],
       "dtypes": {
         "Country Code": "object",
         "Region": "object",
         "IncomeGroup": "object",
         "SpecialNotes": "object",
-        "TableName": "object"
+        "TableName": "object",
+        "Unnamed: 5": "float64"
       },
       "missing_values": {
         "Country Code": 0,
         "Region": 48,
         "IncomeGroup": 50,
         "SpecialNotes": 132,
-        "TableName": 0
-      },
-      "source_group": "world_bank_wdi"
+        "TableName": 0,
+        "Unnamed: 5": 265
+      }
     },
     "fuel_imports_indicator_metadata": {
-      "name": "fuel_imports_indicator_metadata",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/import3.csv",
       "rows": 1,
-      "columns_count": 4,
-      "columns": [
+      "columns": 5,
+      "column_names": [
         "INDICATOR_CODE",
         "INDICATOR_NAME",
         "SOURCE_NOTE",
-        "SOURCE_ORGANIZATION"
+        "SOURCE_ORGANIZATION",
+        "Unnamed: 4"
       ],
       "dtypes": {
         "INDICATOR_CODE": "object",
         "INDICATOR_NAME": "object",
         "SOURCE_NOTE": "object",
-        "SOURCE_ORGANIZATION": "object"
+        "SOURCE_ORGANIZATION": "object",
+        "Unnamed: 4": "float64"
       },
       "missing_values": {
         "INDICATOR_CODE": 0,
         "INDICATOR_NAME": 0,
         "SOURCE_NOTE": 0,
-        "SOURCE_ORGANIZATION": 0
-      },
-      "source_group": "world_bank_wdi"
+        "SOURCE_ORGANIZATION": 0,
+        "Unnamed: 4": 1
+      }
     },
     "fuel_exports_data": {
-      "name": "fuel_exports_data",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/export1.csv",
       "rows": 266,
-      "columns_count": 70,
-      "columns": [
+      "columns": 71,
+      "column_names": [
         "Country Name",
         "Country Code",
         "Indicator Name",
@@ -545,7 +534,8 @@
         "2022",
         "2023",
         "2024",
-        "2025"
+        "2025",
+        "Unnamed: 70"
       ],
       "dtypes": {
         "Country Name": "object",
@@ -617,7 +607,8 @@
         "2022": "float64",
         "2023": "float64",
         "2024": "float64",
-        "2025": "float64"
+        "2025": "float64",
+        "Unnamed: 70": "float64"
       },
       "missing_values": {
         "Country Name": 0,
@@ -689,62 +680,84 @@
         "2022": 64,
         "2023": 67,
         "2024": 105,
-        "2025": 266
-      },
-      "source_group": "world_bank_wdi"
+        "2025": 266,
+        "Unnamed: 70": 266
+      }
     },
     "fuel_exports_country_metadata": {
-      "name": "fuel_exports_country_metadata",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/export2.csv",
       "rows": 265,
-      "columns_count": 5,
-      "columns": [
+      "columns": 6,
+      "column_names": [
         "Country Code",
         "Region",
         "IncomeGroup",
         "SpecialNotes",
-        "TableName"
+        "TableName",
+        "Unnamed: 5"
       ],
       "dtypes": {
         "Country Code": "object",
         "Region": "object",
         "IncomeGroup": "object",
         "SpecialNotes": "object",
-        "TableName": "object"
+        "TableName": "object",
+        "Unnamed: 5": "float64"
       },
       "missing_values": {
         "Country Code": 0,
         "Region": 48,
         "IncomeGroup": 50,
         "SpecialNotes": 132,
-        "TableName": 0
-      },
-      "source_group": "world_bank_wdi"
+        "TableName": 0,
+        "Unnamed: 5": 265
+      }
     },
     "fuel_exports_indicator_metadata": {
-      "name": "fuel_exports_indicator_metadata",
-      "path": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/data/raw/export3.csv",
       "rows": 1,
-      "columns_count": 4,
-      "columns": [
+      "columns": 5,
+      "column_names": [
         "INDICATOR_CODE",
         "INDICATOR_NAME",
         "SOURCE_NOTE",
-        "SOURCE_ORGANIZATION"
+        "SOURCE_ORGANIZATION",
+        "Unnamed: 4"
       ],
       "dtypes": {
         "INDICATOR_CODE": "object",
         "INDICATOR_NAME": "object",
         "SOURCE_NOTE": "object",
-        "SOURCE_ORGANIZATION": "object"
+        "SOURCE_ORGANIZATION": "object",
+        "Unnamed: 4": "float64"
       },
       "missing_values": {
         "INDICATOR_CODE": 0,
         "INDICATOR_NAME": 0,
         "SOURCE_NOTE": 0,
-        "SOURCE_ORGANIZATION": 0
+        "SOURCE_ORGANIZATION": 0,
+        "Unnamed: 4": 1
+      }
+    },
+    "crude_oil_prices": {
+      "rows": 164,
+      "columns": 4,
+      "column_names": [
+        "Entity",
+        "Code",
+        "Year",
+        "Oil price - Crude prices since 1861"
+      ],
+      "dtypes": {
+        "Entity": "object",
+        "Code": "object",
+        "Year": "int64",
+        "Oil price - Crude prices since 1861": "float64"
       },
-      "source_group": "world_bank_wdi"
+      "missing_values": {
+        "Entity": 0,
+        "Code": 0,
+        "Year": 0,
+        "Oil price - Crude prices since 1861": 0
+      }
     }
   }
 }

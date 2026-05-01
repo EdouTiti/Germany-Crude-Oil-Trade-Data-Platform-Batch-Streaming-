@@ -1,0 +1,17 @@
+[
+  {
+    "name": "short_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country_id",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  }
+]

@@ -6,9 +6,6 @@
   "gcs_bucket": "oil-data-temp-bucket-123",
   "gcs_staging_prefix": "bigquery_loads/Germany_oil_data",
   "service_account": {
-    "name": "spark-bq",
-    "id": "spark-bq",
-    "email": "spark-bq@zoomcampde2026.iam.gserviceaccount.com",
     "key_path": "warehouse/bigquery/key.json"
   },
   "load_script": "/workspaces/Germany-Crude-Oil-Trade-Data-Platform-Batch-Streaming-/warehouse/bigquery/load_to_bigquery.sh",
@@ -65,13 +62,8 @@
     }
   },
   "notes": [
-    "This step prepares BigQuery warehouse artifacts but does not load data.",
-    "The load script defaults to direct local bq loads from Spark CSV part files.",
-    "Set USE_GCS_STAGING=true to stage Spark CSV outputs through gs://oil-data-temp-bucket-123/bigquery_loads/Germany_oil_data/.",
-    "warehouse/bigquery/setup_iam.sh documents the service-account roles required for loading.",
-    "GCP_PROJECT_ID defaults to zoomcampde2026 in generated shell scripts.",
-    "GOOGLE_APPLICATION_CREDENTIALS defaults to warehouse/bigquery/key.json.",
-    "Do not commit the service account JSON key to the repository.",
-    "The BigQuery CLI and either gcloud storage or gsutil are required for loading."
+    "This step prepares BigQuery warehouse artifacts but does not load data by itself.",
+    "Run warehouse/bigquery/load_to_bigquery.sh after authenticating with a service account.",
+    "Do not commit the service account JSON key to the repository."
   ]
 }

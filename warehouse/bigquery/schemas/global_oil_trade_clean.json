@@ -1,0 +1,127 @@
+[
+  {
+    "name": "date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "importer_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "supplier_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "export_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "export_country_id",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "origin_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "origin_country_id",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hs_code",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product_description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_unit_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "unit",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_packages",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "quantity",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "gross_weight_kg",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "net_weight_kg",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "currency",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_value_usd",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "delivery_terms",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mode_of_transport",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "port_of_unloading",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "chapter",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "heading",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sub_heading",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "month",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "year",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  }
+]
