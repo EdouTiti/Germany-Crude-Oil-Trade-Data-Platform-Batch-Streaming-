@@ -739,6 +739,9 @@ Power BI tables:
 
 # Generated Dashboard
 <img width="520" height="335" alt="image" src="https://github.com/user-attachments/assets/987cd338-83cf-40b2-a1e9-e2dae1d75acf" />
+<img width="488" height="227" alt="image" src="https://github.com/user-attachments/assets/9508e860-82f3-4d32-9c74-3c544a08ef80" />
+<img width="489" height="160" alt="image" src="https://github.com/user-attachments/assets/93beceaa-f19f-4d5e-9280-37afba807979" />
+
 
 
 - Germany crude oil imports by partner country
