@@ -13,8 +13,11 @@ energy market storytelling.
 
 ## Project Goal
 
-Build a batch data platform that can load, validate, clean,
-transform, and analyze oil trade datasets from multiple raw sources.
+Build an end-to-end batch data platform for analyzing Germany’s crude oil imports using multiple raw trade and energy datasets.
+
+The project transforms fragmented CSV files into clean, validated, warehouse-ready, and BI-ready datasets. It covers the full data engineering lifecycle: raw data ingestion, validation, cleaning, PySpark batch processing, BigQuery warehousing, dbt analytics modeling, orchestration, and Power BI reporting.
+
+The platform enables analysis of Germany’s crude oil import trends, key partner countries, trade values, quantities, global oil trade records, and World Bank fuel import/export indicators.
 
 ## Repository Structure
 
